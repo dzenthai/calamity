@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "calamity_letter": "kairen"
+                },
+                "minecraft:written_book_content": {
+                  "title": "Письмо без имени",
+                  "author": "Кайрен",
+                  "resolved": true,
+                  "pages": [
+                    "{\"text\": \"Если ты читаешь это — ритуал удался.\\n\\nПрости, что призвал тебя так. Иначе было нельзя.\\n\\nТы не первый, кого мы пытались призвать.\"}",
+                    "{\"text\": \"Ночью держись стен и огня. Они придут на твой свет.\\n\\nНайди моего учителя, Аберфорта. Он ждёт по ту сторону Сумеречного портала.\"}",
+                    "{\"text\": \"Пальцы немеют. Ритуал берёт больше, чем мы думали.\\n\\nСвечи ещё горят. Значит, успею.\\n\\nПередай моему учит\", \"extra\": [{\"text\": \"елю что  я\", \"obfuscated\": true, \"color\": \"dark_gray\"}]}"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

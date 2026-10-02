@@ -105,10 +105,10 @@ function comfort(level, pos, sheltered) {
     if (G(st, 'isAir')) continue
     let id = blockId(st)
     if (!found.fire && isHeat(st)) found.fire = 1
-    else if (!found.bed && st.is($BlockTags.BEDS)) found.bed = 1
+    else if (!found.bed && st['is(net.minecraft.tags.TagKey)']($BlockTags.BEDS)) found.bed = 1
     else if (!found.seat && /chair|bench|stool|couch|sofa|seat/.test(id)) found.seat = 1
     else if (!found.table && /table|desk|counter/.test(id) && !/crafting|enchanting|fletching|smithing|cartography|sewing/.test(id)) found.table = 1
-    else if (!found.carpet && (st.is($BlockTags.WOOL_CARPETS) || /carpet|rug/.test(id))) found.carpet = 1
+    else if (!found.carpet && (st['is(net.minecraft.tags.TagKey)']($BlockTags.WOOL_CARPETS) || /carpet|rug/.test(id))) found.carpet = 1
     else if (!found.decor && /banner|flower_pot|potted_|bookshelf|candle|lantern|vase|shelf|trophy|cushion/.test(id)) found.decor = 1
   }
   return 1 + (sheltered ? 1 : 0) + Object.keys(found).length

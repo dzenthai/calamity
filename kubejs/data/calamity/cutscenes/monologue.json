@@ -1,48 +1,49 @@
 {
   "version": 0,
-  "length": 360,
+  "length": {
+    "type": "seconds",
+    "length": 13.0
+  },
   "hide_hand": true,
+  "disable_actions": {
+    "default": true,
+    "consider_spectator": false
+  },
   "path": {
     "segments": [
       {
-        "type": "cutscenes:catmull_rom",
-        "points": [
-          [
-            3.2,
-            1.5,
-            0.0
-          ],
-          [
-            2.73,
-            1.5,
-            1.67
-          ],
-          [
-            1.45,
-            1.5,
-            2.85
-          ],
-          [
-            -0.25,
-            1.5,
-            3.19
-          ],
-          [
-            -1.88,
-            1.5,
-            2.59
-          ],
-          [
-            -2.96,
-            1.5,
-            1.22
-          ],
-          [
-            -3.16,
-            1.5,
-            -0.5
-          ]
-        ]
+        "type": "cutscenes:calculated",
+        "x": {
+          "type": "cutscenes:mul",
+          "arg1": 3.2,
+          "arg2": {
+            "type": "cutscenes:cos",
+            "arg": {
+              "type": "cutscenes:lerp",
+              "from": 0,
+              "to": 3.3,
+              "delta": {
+                "type": "cutscenes:in_out_sine"
+              }
+            }
+          }
+        },
+        "y": 1.5,
+        "z": {
+          "type": "cutscenes:mul",
+          "arg1": 3.2,
+          "arg2": {
+            "type": "cutscenes:sin",
+            "arg": {
+              "type": "cutscenes:lerp",
+              "from": 0,
+              "to": 3.3,
+              "delta": {
+                "type": "cutscenes:in_out_sine"
+              }
+            }
+          }
+        }
       }
     ]
   },
@@ -60,8 +61,8 @@
   },
   "start_transition": {
     "type": "cutscenes:fade",
-    "length_a": 10,
-    "length_b": 30,
+    "length_a": 0.5,
+    "length_b": 1.5,
     "color": [
       0,
       0,
@@ -73,8 +74,8 @@
   },
   "end_transition": {
     "type": "cutscenes:fade",
-    "length_a": 40,
-    "length_b": 10,
+    "length_a": 2.0,
+    "length_b": 0.5,
     "color": [
       0,
       0,
@@ -86,66 +87,64 @@
   },
   "effects": [
     {
-      "type": "cutscenes:rectangle",
-      "start": 15,
-      "end": 360,
-      "x": 0,
-      "y": 0.84,
-      "width": 1,
-      "height": 0.1,
-      "color": "4169E165"
-    },
-    {
-      "type": "cutscenes:appearing_text",
-      "start": 20,
-      "end": 105,
-      "x": 0.1,
-      "y": 0.865,
+      "type": "calamity_core:centered_text",
+      "start": 1.0,
+      "end": 4.75,
+      "x": 0.5,
+      "y": {
+        "type": "cutscenes:constant",
+        "value": 68,
+        "absolute": true,
+        "anchor": "end"
+      },
       "line_width": 0.8,
       "drop_shadow": true,
       "text": {
-        "text": "Я не помню, как сюда попал. Не помню даже своего имени.",
+        "text": "Свечи. Мертвец. Моя кровь на его руках.",
         "color": "#F2C55C"
-      }
+      },
+      "background": "4169E165",
+      "padding": 5
     },
     {
-      "type": "cutscenes:appearing_text",
-      "start": 105,
-      "end": 190,
-      "x": 0.1,
-      "y": 0.865,
+      "type": "calamity_core:centered_text",
+      "start": 4.75,
+      "end": 8.5,
+      "x": 0.5,
+      "y": {
+        "type": "cutscenes:constant",
+        "value": 68,
+        "absolute": true,
+        "anchor": "end"
+      },
       "line_width": 0.8,
       "drop_shadow": true,
       "text": {
-        "text": "А он — помнил. Письмо в его руке адресовано мне.",
+        "text": "Я не знаю его. Не знаю себя.",
         "color": "#F2C55C"
-      }
+      },
+      "background": "4169E165",
+      "padding": 5
     },
     {
-      "type": "cutscenes:appearing_text",
-      "start": 190,
-      "end": 270,
-      "x": 0.1,
-      "y": 0.865,
+      "type": "calamity_core:centered_text",
+      "start": 8.5,
+      "end": 12.5,
+      "x": 0.5,
+      "y": {
+        "type": "cutscenes:constant",
+        "value": 68,
+        "absolute": true,
+        "anchor": "end"
+      },
       "line_width": 0.8,
       "drop_shadow": true,
       "text": {
-        "text": "«Не верь огню, кото…» Дальше — пепел.",
+        "text": "Письмо. Мне.",
         "color": "#F2C55C"
-      }
-    },
-    {
-      "type": "cutscenes:appearing_text",
-      "start": 270,
-      "end": 350,
-      "x": 0.1,
-      "y": 0.865,
-      "line_width": 0.8,
-      "drop_shadow": true,
-      "text": {
-        "text": "Солнце садится. Что бы здесь ни случилось — до темноты я должен успеть.",
-        "color": "#F2C55C"
-      }
+      },
+      "background": "4169E165",
+      "padding": 5
     }
   ]
 }

@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "born_in_chaos_v1:dark_rod",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "target": "item_name",
+              "name": {
+                "text": "Посох Кайрена",
+                "color": "gold"
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "mode": "replace_all",
+              "lore": [
+                {
+                  "text": "Всё, что осталось от великого посоха призыва.",
+                  "color": "dark_gray",
+                  "italic": true
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{calamity_item:\"kairen_staff\"}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
