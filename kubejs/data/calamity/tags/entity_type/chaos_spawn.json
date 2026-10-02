@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values": [
+    "born_in_chaos_v1:decaying_zombie",
+    "born_in_chaos_v1:barrel_zombie",
+    "born_in_chaos_v1:zombie_clown",
+    "born_in_chaos_v1:zombie_lumberjack",
+    "born_in_chaos_v1:zombie_fisherman",
+    "born_in_chaos_v1:zombie_bruiser",
+    "born_in_chaos_v1:skeleton_thrasher",
+    "born_in_chaos_v1:decrepit_skeleton",
+    "born_in_chaos_v1:siamese_skeletons",
+    "born_in_chaos_v1:bonescaller",
+    "born_in_chaos_v1:dread_hound",
+    "born_in_chaos_v1:door_knight",
+    "born_in_chaos_v1:spirit_guide",
+    "born_in_chaos_v1:nightmare_stalker",
+    "born_in_chaos_v1:restless_spirit",
+    "born_in_chaos_v1:firelight",
+    "born_in_chaos_v1:swarmer",
+    "born_in_chaos_v1:mother_spider"
+  ]
+}

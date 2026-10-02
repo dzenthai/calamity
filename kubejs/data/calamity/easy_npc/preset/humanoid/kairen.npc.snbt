@@ -1,0 +1,34 @@
+{
+  PresetMetadata:{
+    author:"Calamity",category:"Calamity",created:1790000000000L,modified:1790000000000L,
+    description:"Мёртвый ученик Аберфорта у круга свечей (пролог).",entityTypeId:"easy_npc:humanoid",name:"Кайрен",variantType:"KNIGHT_01",version:"1.0.0"
+  },
+  data:{
+    ActionData:{ActionEventSet:{ON_INTERACTION:[{Type:"COMMAND",PermLevel:2,Cmd:"/calamity_story body @initiator"}]},ActionPermissionLevel:2},
+    AnimationData:{Behavior:"NONE"},
+    ArmorItems:[{Count:1b,id:"fantasy_armor:spark_of_dawn_boots"},{Count:1b,id:"fantasy_armor:spark_of_dawn_leggings"},{Count:1b,id:"fantasy_armor:spark_of_dawn_chestplate"},{}],
+    Attributes:[{Base:20.0d,Name:"minecraft:generic.max_health"},{Base:0.0d,Name:"minecraft:generic.movement_speed"}],
+    CustomName:"{\"text\": \"Кайрен\", \"color\": \"#B8B8B8\"}",
+    DialogData:{
+      DialogDataSet:[
+      {
+        Label:"default",Name:"Тело",Texts:[{Text:"Кайрен сидит у стены, будто просто присел отдохнуть. Лицо спокойное. Руки ещё не остыли.\\n\\nНа ладони выжжен знак — круг, а над ним два рога."}]
+      }
+      ],
+      Type:"BASIC"
+    },
+    EasyNPCVersion:3,
+    EntityAttribute:{IsAttackable:0b,IsPushable:0b,CanFloat:1b},
+    HandItems:[{},{}],
+    Invulnerable:1b,
+    ModelData:{
+      Pose:"CUSTOM",
+      Position:{Body:[0.1f,10.0f,0.0f],Head:[0.0f,10.0f,0.0f],LeftArm:[0.0f,10.0f,0.0f],LeftLeg:[3.3f,10.0f,-13.2f],RightArm:[0.0f,10.0f,0.0f],RightLeg:[-0.7f,10.0f,-13.35f]},
+      Rotation:{Body:[0.0f,0.0f,0.0f,0.0f],Head:[0.45f,0.25f,0.0f,0.0f],LeftArm:[-0.3f,0.0f,-0.1f,0.0f],LeftLeg:[-1.62f,0.4f,0.0f,0.0f],RightArm:[-0.6f,0.0f,0.2f,0.0f],RightLeg:[-1.48f,-0.3f,0.0f,0.0f]}
+    },
+    ObjectiveData:{HasObjectives:0b,ObjectiveDataSet:[]},
+    PersistenceRequired:1b,
+    VariantType:"KNIGHT_01",
+    id:"easy_npc:humanoid"
+  }
+}

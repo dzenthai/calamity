@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "farmersdelight:cooking_pot",
+    "farmersdelight:skillet",
+    "farm_and_charm:cooking_pot",
+    "farm_and_charm:roaster",
+    "candlelight:cooking_pot",
+    "candlelight:cooking_pan"
+  ]
+}

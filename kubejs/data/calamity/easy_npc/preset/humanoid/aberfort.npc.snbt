@@ -1,0 +1,51 @@
+{
+  PresetMetadata:{
+    author:"Calamity",category:"Calamity",created:1790000000000L,modified:1790000000000L,
+    description:"Последний из Хранителей Света. Появляется у тропы после победы над Нагой.",entityTypeId:"easy_npc:humanoid",name:"Аберфорт Эльдвейр",variantType:"PROFESSOR_01",version:"1.0.0"
+  },
+  data:{
+    ActionData:{ActionEventSet:{ON_INTERACTION:[{Type:"OPEN_DEFAULT_DIALOG"}]},ActionPermissionLevel:2},
+    AnimationData:{Behavior:"NONE"},
+    ArmorItems:[{Count:1b,id:"fantasy_armor:wandering_wizard_boots"},{Count:1b,id:"fantasy_armor:wandering_wizard_leggings"},{Count:1b,id:"fantasy_armor:wandering_wizard_chestplate"},{Count:1b,id:"fantasy_armor:wandering_wizard_helmet"}],
+    Attributes:[{Base:20.0d,Name:"minecraft:generic.max_health"},{Base:0.0d,Name:"minecraft:generic.movement_speed"}],
+    CustomName:"{\"text\": \"Аберфорт Эльдвейр\", \"color\": \"#E8C46A\"}",
+    DialogData:{
+      DialogDataSet:[
+      {
+        Label:"default",Name:"Встреча",Priority:5,Conditions:[{Type:"NPC_STATE",SubType:"FLAG",Name:"met",Operation:"EQUALS"}],Texts:[{Text:"Кайрен... — Старик долго смотрит на огонь. — Значит, он мёртв.\\n\\nОн был моим последним учеником."}],
+        Buttons:[{Label:"b_tried",Name:"Он пытался.",Actions:[{Type:"OPEN_NAMED_DIALOG",Cmd:"tried"}]},{Label:"b_who",Name:"Кто ты такой?",Actions:[{Type:"OPEN_NAMED_DIALOG",Cmd:"who"}]}]
+      },
+      {
+        Label:"tried",Name:"Он пытался",Priority:-1,Texts:[{Text:"Знаю. Он всегда пытался больше, чем мог. Это и делало его лучшим из нас.\\n\\nИ это же его убило."}],
+        Buttons:[{Label:"b_who2",Name:"Кто ты такой?",Actions:[{Type:"OPEN_NAMED_DIALOG",Cmd:"who"}]}]
+      },
+      {
+        Label:"who",Name:"Кто ты",Priority:-1,Texts:[{Text:"Меня зовут Аберфорт Эльдвейр. Последний из Хранителей Света — если от ордена вообще что-то осталось.\\n\\nЭто я велел Кайрену провести ритуал. Нам нужен был кто-то извне. Тот, кого эта земля ещё не запятнала."}],
+        Buttons:[{Label:"b_flash",Name:"Что такое Вспышка?",Actions:[{Type:"OPEN_NAMED_DIALOG",Cmd:"flash"}]},{Label:"b_letter",Name:"В письме была последняя строка...",Actions:[{Type:"OPEN_NAMED_DIALOG",Cmd:"letter"}]}]
+      },
+      {
+        Label:"flash",Name:"Вспышка",Priority:-1,Texts:[{Text:"Однажды ночью небо стало белым. А потом — очень долго — серым.\\n\\nОстальное потом. Не здесь и не сейчас."}],
+        Buttons:[{Label:"b_letter2",Name:"В письме была последняя строка...",Actions:[{Type:"OPEN_NAMED_DIALOG",Cmd:"letter"}]}]
+      },
+      {
+        Label:"letter",Name:"Последняя строка",Priority:-1,Texts:[{Text:"Старик впервые поворачивается к тебе. Смотрит на письмо в твоей руке.\\n\\n— Ты ведь не дочитал последнюю строку? Хорошо.\\n\\nНекоторые строки лучше дочитывать позже."}],
+        Buttons:[{Label:"b_go",Name:"Пойдём.",Actions:[{Type:"NPC_STATE",Cmd:"toggle met"},{Type:"COMMAND",PermLevel:2,Cmd:"/advancement grant @initiator only calamity:quest/met_aberfort"},{Type:"COMMAND",PermLevel:2,Cmd:"/effect clear @e[tag=calamity_aberfort] minecraft:glowing"},{Type:"COMMAND",PermLevel:2,Cmd:"/playsound minecraft:block.fire.extinguish master @initiator ~ ~ ~ 0.6 0.7"},{Type:"CLOSE_DIALOG"}]}]
+      },
+      {
+        Label:"later",Name:"Позже",Priority:10,Conditions:[{Type:"NPC_STATE",SubType:"FLAG",Name:"met",Operation:"EQUALS",Value:1}],Texts:[{Text:"Отдохни, пока можешь. Когда будешь готов — возвращайся. Лес никуда не денется.\\n\\nА вот мы с тобой можем не успеть."}]
+      }
+      ],
+      Type:"STANDARD"
+    },
+    EasyNPCVersion:3,
+    EntityAttribute:{IsAttackable:0b,IsPushable:0b,CanFloat:1b},
+    HandItems:[{Count:1b,id:"minecraft:stick"},{Count:1b,id:"minecraft:soul_lantern"}],
+    Invulnerable:1b,
+    
+    ObjectiveData:{HasObjectives:1b,ObjectiveDataSet:[{Type:"LOOK_AT_PLAYER"},{Type:"LOOK_AT_RESET"}]},
+    PersistenceRequired:1b,
+    VariantType:"PROFESSOR_01",
+    
+    id:"easy_npc:humanoid"
+  }
+}
