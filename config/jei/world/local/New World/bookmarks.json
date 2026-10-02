@@ -1,0 +1,4 @@
+[
+  {"version":2},
+  {"ingredient":{"id":"minecraft:potion","components":"{\"minecraft:potion_contents\":{potion:\"minecraft:healing\"}}"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

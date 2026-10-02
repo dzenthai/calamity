@@ -1,0 +1,10 @@
+{
+	version: 13
+	fallback_locale: "ru_ru"
+	default_autoclaim_rewards: "disabled"
+	progression_mode: "flexible"
+	detection_delay: 20
+	grid_scale: 0.5d
+	show_lock_icons: true
+	drop_book_on_death: false
+}

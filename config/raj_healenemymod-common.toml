@@ -1,0 +1,10 @@
+#How many blocks in each direction from the dead player should the heal affect
+# Default: 100
+# Range: 1 ~ 1000
+healRadius = 100
+#Should the heal amount depend on how many nearby players there are?
+multiplayerMode = true
+#In Singleplayer Mode what percentage of max health should a mob heal?
+# Default: 100
+# Range: 1 ~ 100
+singleplayerHealPercentage = 100

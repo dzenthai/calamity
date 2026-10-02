@@ -1,0 +1,113 @@
+{
+  "content": {
+    "zinc_nuggets": {
+      "type": "item",
+      "content": "create:zinc_nugget",
+      "unitWorth": 30,
+      "amount": {
+        "min": 9,
+        "max": 36
+      }
+    },
+    "super_glue": {
+      "type": "item",
+      "content": "create:super_glue",
+      "unitWorth": 1200,
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "rarity": "UNCOMMON"
+    },
+    "wrench": {
+      "type": "item",
+      "content": "create:wrench",
+      "unitWorth": 1000,
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "rarity": "UNCOMMON"
+    },
+    "goggles": {
+      "type": "item",
+      "content": "create:goggles",
+      "unitWorth": 1500,
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "rarity": "UNCOMMON"
+    },
+    "builders_tea": {
+      "type": "item",
+      "content": "create:builders_tea",
+      "unitWorth": 600,
+      "amount": {
+        "min": 1,
+        "max": 4
+      }
+    },
+    "chocolate": {
+      "type": "item",
+      "content": "create:bar_of_chocolate",
+      "unitWorth": 250,
+      "amount": {
+        "min": 2,
+        "max": 8
+      }
+    },
+    "sweet_roll": {
+      "type": "item",
+      "content": "create:sweet_roll",
+      "unitWorth": 250,
+      "amount": {
+        "min": 2,
+        "max": 8
+      }
+    },
+    "honeyed_apple": {
+      "type": "item",
+      "content": "create:honeyed_apple",
+      "unitWorth": 300,
+      "amount": {
+        "min": 2,
+        "max": 6
+      }
+    },
+    "xp_nugget": {
+      "type": "item",
+      "content": "create:experience_nugget",
+      "unitWorth": 120,
+      "amount": {
+        "min": 4,
+        "max": 24
+      },
+      "rarity": "UNCOMMON"
+    },
+    "rose_quartz": {
+      "type": "item",
+      "content": "create:polished_rose_quartz",
+      "unitWorth": 400,
+      "amount": {
+        "min": 2,
+        "max": 8
+      },
+      "rarity": "UNCOMMON"
+    },
+    "blaze_burner": {
+      "type": "item",
+      "content": "create:empty_blaze_burner",
+      "unitWorth": 3000,
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "rarity": "EPIC",
+      "repRequired": 10
+    }
+  },
+  "requires": [
+    "create"
+  ]
+}

@@ -1,0 +1,6 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"naturalist:plush_bear"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"naturalist:hide"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"naturalist:knapsack"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

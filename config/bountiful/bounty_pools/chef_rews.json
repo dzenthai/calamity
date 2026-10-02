@@ -1,0 +1,180 @@
+{
+  "content": {
+    "fd_rich_soil": {
+      "type": "item",
+      "content": "farmersdelight:rich_soil",
+      "unitWorth": 250,
+      "amount": {
+        "min": 4,
+        "max": 16
+      }
+    },
+    "fd_organic_compost": {
+      "type": "item",
+      "content": "farmersdelight:organic_compost",
+      "unitWorth": 600,
+      "amount": {
+        "min": 2,
+        "max": 6
+      },
+      "rarity": "UNCOMMON"
+    },
+    "fd_iron_knife": {
+      "type": "item",
+      "content": "farmersdelight:iron_knife",
+      "unitWorth": 1200,
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "rarity": "UNCOMMON"
+    },
+    "fd_diamond_knife": {
+      "type": "item",
+      "content": "farmersdelight:diamond_knife",
+      "unitWorth": 4000,
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "rarity": "EPIC",
+      "repRequired": 15
+    },
+    "fd_tomato_seeds": {
+      "type": "item",
+      "content": "farmersdelight:tomato_seeds",
+      "unitWorth": 60,
+      "amount": {
+        "min": 4,
+        "max": 12
+      }
+    },
+    "fd_cabbage_seeds": {
+      "type": "item",
+      "content": "farmersdelight:cabbage_seeds",
+      "unitWorth": 60,
+      "amount": {
+        "min": 4,
+        "max": 12
+      }
+    },
+    "fc_yeast": {
+      "type": "item",
+      "content": "farm_and_charm:yeast",
+      "unitWorth": 120,
+      "amount": {
+        "min": 2,
+        "max": 8
+      }
+    },
+    "fc_strawberry_seeds": {
+      "type": "item",
+      "content": "farm_and_charm:strawberry_seeds",
+      "unitWorth": 90,
+      "amount": {
+        "min": 2,
+        "max": 8
+      },
+      "rarity": "UNCOMMON"
+    },
+    "fc_fertilizer": {
+      "type": "item",
+      "content": "farm_and_charm:fertilizer",
+      "unitWorth": 300,
+      "amount": {
+        "min": 2,
+        "max": 8
+      },
+      "rarity": "UNCOMMON"
+    },
+    "vin_red_seeds": {
+      "type": "item",
+      "content": "vinery:red_grape_seeds",
+      "unitWorth": 150,
+      "amount": {
+        "min": 2,
+        "max": 6
+      },
+      "rarity": "UNCOMMON"
+    },
+    "vin_white_seeds": {
+      "type": "item",
+      "content": "vinery:white_grape_seeds",
+      "unitWorth": 150,
+      "amount": {
+        "min": 2,
+        "max": 6
+      },
+      "rarity": "UNCOMMON"
+    },
+    "cl_cooking_hat": {
+      "type": "item",
+      "content": "candlelight:cooking_hat",
+      "unitWorth": 2500,
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "rarity": "RARE",
+      "weightMult": 0.5
+    },
+    "cl_chefs_jacket": {
+      "type": "item",
+      "content": "candlelight:chefs_jacket",
+      "unitWorth": 3000,
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "rarity": "RARE",
+      "weightMult": 0.5
+    },
+    "cl_chefs_pants": {
+      "type": "item",
+      "content": "candlelight:chefs_pants",
+      "unitWorth": 2800,
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "rarity": "RARE",
+      "weightMult": 0.5
+    },
+    "cl_chefs_boots": {
+      "type": "item",
+      "content": "candlelight:chefs_boots",
+      "unitWorth": 2200,
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "rarity": "RARE",
+      "weightMult": 0.5
+    },
+    "vin_straw_hat": {
+      "type": "item",
+      "content": "vinery:straw_hat",
+      "unitWorth": 1500,
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "rarity": "UNCOMMON",
+      "weightMult": 0.5
+    },
+    "fd_feast_ham": {
+      "type": "item",
+      "content": "farmersdelight:honey_glazed_ham",
+      "unitWorth": 2100,
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "rarity": "EPIC",
+      "repRequired": 10
+    }
+  },
+  "requires": [
+    "farmersdelight"
+  ]
+}

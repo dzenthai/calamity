@@ -1,0 +1,157 @@
+{
+  "content": {
+    "fd_cabbage": {
+      "type": "item",
+      "content": "farmersdelight:cabbage",
+      "unitWorth": 60,
+      "amount": {
+        "min": 8,
+        "max": 32
+      }
+    },
+    "fd_tomato": {
+      "type": "item",
+      "content": "farmersdelight:tomato",
+      "unitWorth": 55,
+      "amount": {
+        "min": 8,
+        "max": 32
+      }
+    },
+    "fd_onion": {
+      "type": "item",
+      "content": "farmersdelight:onion",
+      "unitWorth": 55,
+      "amount": {
+        "min": 8,
+        "max": 32
+      }
+    },
+    "fd_rice": {
+      "type": "item",
+      "content": "farmersdelight:rice",
+      "unitWorth": 60,
+      "amount": {
+        "min": 8,
+        "max": 32
+      }
+    },
+    "fd_straw": {
+      "type": "item",
+      "content": "farmersdelight:straw",
+      "unitWorth": 30,
+      "amount": {
+        "min": 16,
+        "max": 48
+      }
+    },
+    "fc_lettuce": {
+      "type": "item",
+      "content": "farm_and_charm:lettuce",
+      "unitWorth": 55,
+      "amount": {
+        "min": 8,
+        "max": 32
+      }
+    },
+    "fc_corn": {
+      "type": "item",
+      "content": "farm_and_charm:corn",
+      "unitWorth": 60,
+      "amount": {
+        "min": 8,
+        "max": 32
+      }
+    },
+    "fc_oat": {
+      "type": "item",
+      "content": "farm_and_charm:oat",
+      "unitWorth": 50,
+      "amount": {
+        "min": 8,
+        "max": 32
+      }
+    },
+    "fc_barley": {
+      "type": "item",
+      "content": "farm_and_charm:barley",
+      "unitWorth": 50,
+      "amount": {
+        "min": 8,
+        "max": 32
+      }
+    },
+    "fc_strawberry": {
+      "type": "item",
+      "content": "farm_and_charm:strawberry",
+      "unitWorth": 80,
+      "amount": {
+        "min": 6,
+        "max": 24
+      },
+      "rarity": "UNCOMMON"
+    },
+    "vin_red_grape": {
+      "type": "item",
+      "content": "vinery:red_grape",
+      "unitWorth": 90,
+      "amount": {
+        "min": 6,
+        "max": 24
+      },
+      "rarity": "UNCOMMON"
+    },
+    "vin_white_grape": {
+      "type": "item",
+      "content": "vinery:white_grape",
+      "unitWorth": 90,
+      "amount": {
+        "min": 6,
+        "max": 24
+      },
+      "rarity": "UNCOMMON"
+    },
+    "breed_cows": {
+      "type": "criteria",
+      "content": "minecraft:bred_animals",
+      "unitWorth": 350,
+      "amount": {
+        "min": 2,
+        "max": 6
+      },
+      "name": "Raise the herd (breed cows)",
+      "conditions": {
+        "child": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:cow"
+            }
+          }
+        ]
+      }
+    },
+    "breed_chickens": {
+      "type": "criteria",
+      "content": "minecraft:bred_animals",
+      "unitWorth": 250,
+      "amount": {
+        "min": 2,
+        "max": 8
+      },
+      "name": "Fill the coop (breed chickens)",
+      "conditions": {
+        "child": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:chicken"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

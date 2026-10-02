@@ -1,0 +1,767 @@
+{
+  "meta": {
+    "sanitize_config": true,
+    "rounding_unit": 0.5,
+    "merge_item_modifiers": true
+  },
+  "announcement": {
+    "enabled": true,
+    "check_interval_seconds": 5,
+    "history_size": 2
+  },
+  "per_player_difficulty": {
+    "enabled": true,
+    "counting": "EVERYWHERE",
+    "cap": 10,
+    "entities": [
+      {
+        "entity_matches": {
+          "attitude": "HOSTILE",
+          "type": "!~^(minecraft:(ender_dragon|wither|warden|elder_guardian)|cataclysm:(clawdian|ignis|netherite_monstrosity|old_netherite_monstrosity|ender_guardian|the_harbinger|the_leviathan|ancient_remnant|ancient_ancient_remnant|maledictus|scylla|the_watcher|the_prowler|kobolediator|wadjet|aptrgangr|coralssus|ender_golem)|block_factorys_bosses:(infernal_dragon|kraken|sandworm|underworld_knight|yeti|pirate_captain)|irons_spellbooks:(dead_king|fire_boss)|aquamirae:(captain_cornelia|maze_mother|shipbreaker)|netherman:(azazel|azazel_human)|twilightforest:(naga|lich|minoshroom|hydra|knight_phantom|ur_ghast|alpha_yeti|snow_queen|plateau_boss)|born_in_chaos_v1:(lord_pumpkinhead|lord_pumpkinhead_withouta_horse|lord_the_headless|supreme_bonescaller|supreme_bonescaller_stage_2|krampus|lifestealer|lifestealer_true_form|sir_pumpkinhead|sir_pumpkinhead_without_horse|sir_the_headless|mother_spider|dire_hound_leader)|cataclysm_spellbooks:(summoned_.*|phantom_ancient_remnant)|irons_spellbooks:summoned_.*|mowziesmobs:(ferrous_wroughtnaut|umvuthi|frostmaw|sculptor|umvuthana_follower_player|umvuthana_crane_player))$"
+        },
+        "attributes": [
+          {
+            "attribute": "minecraft:generic.attack_damage",
+            "operation": "MULTIPLY_BASE",
+            "randomness": 0.05,
+            "value": 0.05,
+            "offset": 0.0
+          },
+          {
+            "attribute": "minecraft:generic.max_health",
+            "operation": "MULTIPLY_BASE",
+            "randomness": 0.1,
+            "value": 0.15,
+            "offset": 0.0
+          }
+        ],
+        "experience_multiplier": 0.0
+      }
+    ]
+  },
+  "difficulty_types": [
+    {
+      "name": "adventure",
+      "entities": [
+        {
+          "entity_matches": {
+            "attitude": "ANY",
+            "type": "archaion:last_of_deepslate"
+          },
+          "attributes": [
+            {
+              "attribute": "minecraft:generic.max_health",
+              "operation": "MULTIPLY_BASE",
+              "randomness": 0.0,
+              "value": 0.001,
+              "offset": 1.5
+            },
+            {
+              "attribute": "minecraft:generic.attack_damage",
+              "operation": "MULTIPLY_BASE",
+              "randomness": 0.0,
+              "value": 0.001,
+              "offset": 0.35
+            }
+          ],
+          "experience_multiplier": 0.0
+        },
+        {
+          "entity_matches": {
+            "attitude": "HOSTILE",
+            "type": "!~^(minecraft:(ender_dragon|wither|warden|elder_guardian)|cataclysm:(clawdian|ignis|netherite_monstrosity|old_netherite_monstrosity|ender_guardian|the_harbinger|the_leviathan|ancient_remnant|ancient_ancient_remnant|maledictus|scylla|the_watcher|the_prowler|kobolediator|wadjet|aptrgangr|coralssus|ender_golem)|block_factorys_bosses:(infernal_dragon|kraken|sandworm|underworld_knight|yeti|pirate_captain)|irons_spellbooks:(dead_king|fire_boss)|aquamirae:(captain_cornelia|maze_mother|shipbreaker)|netherman:(azazel|azazel_human)|twilightforest:(naga|lich|minoshroom|hydra|knight_phantom|ur_ghast|alpha_yeti|snow_queen|plateau_boss)|born_in_chaos_v1:(lord_pumpkinhead|lord_pumpkinhead_withouta_horse|lord_the_headless|supreme_bonescaller|supreme_bonescaller_stage_2|krampus|lifestealer|lifestealer_true_form|sir_pumpkinhead|sir_pumpkinhead_without_horse|sir_the_headless|mother_spider|dire_hound_leader)|cataclysm_spellbooks:(summoned_.*|phantom_ancient_remnant)|irons_spellbooks:summoned_.*|mowziesmobs:(ferrous_wroughtnaut|umvuthi|frostmaw|sculptor|umvuthana_follower_player|umvuthana_crane_player)|eternal_starlight:(the_gatekeeper|starlight_golem|lunar_monstrosity)|archaion:last_of_deepslate|eternal_starlight:permafrost|undergarden:forgotten_guardian|archaion:deepslate_sentinel)$"
+          },
+          "attributes": [
+            {
+              "attribute": "minecraft:generic.attack_damage",
+              "operation": "ADDITION",
+              "randomness": 0.5,
+              "value": 0.5,
+              "offset": 3.5
+            },
+            {
+              "attribute": "apothic_attributes:projectile_damage",
+              "operation": "MULTIPLY_BASE",
+              "randomness": 0.05,
+              "value": 0.05,
+              "offset": 0.6
+            },
+            {
+              "attribute": "irons_spellbooks:spell_power",
+              "operation": "MULTIPLY_BASE",
+              "randomness": 0.05,
+              "value": 0.05,
+              "offset": 0.6
+            },
+            {
+              "attribute": "minecraft:generic.max_health",
+              "operation": "MULTIPLY_BASE",
+              "randomness": 0.1,
+              "value": 0.15,
+              "offset": 1.2
+            },
+            {
+              "attribute": "minecraft:generic.armor",
+              "operation": "ADDITION",
+              "randomness": 0.2,
+              "value": 0.75,
+              "offset": 1.0
+            },
+            {
+              "attribute": "minecraft:generic.movement_speed",
+              "operation": "MULTIPLY_BASE",
+              "randomness": 0.0,
+              "value": 0.01,
+              "offset": 0.0
+            },
+            {
+              "attribute": "minecraft:generic.follow_range",
+              "operation": "MULTIPLY_BASE",
+              "randomness": 0.0,
+              "value": 0.02,
+              "offset": 0.25
+            }
+          ],
+          "experience_multiplier": 0.2
+        },
+        {
+          "entity_matches": {
+            "attitude": "ANY",
+            "type": "~^(cataclysm:(ignis|netherite_monstrosity|old_netherite_monstrosity|ender_guardian|the_harbinger|the_leviathan|ancient_remnant|ancient_ancient_remnant|maledictus|scylla))$"
+          },
+          "attributes": [
+            {
+              "attribute": "minecraft:generic.max_health",
+              "operation": "MULTIPLY_BASE",
+              "randomness": 0.0,
+              "value": 0.001,
+              "offset": 0.75
+            },
+            {
+              "attribute": "minecraft:generic.attack_damage",
+              "operation": "MULTIPLY_BASE",
+              "randomness": 0.0,
+              "value": 0.001,
+              "offset": 0.2
+            }
+          ],
+          "experience_multiplier": 0.0
+        },
+        {
+          "entity_matches": {
+            "attitude": "ANY",
+            "type": "minecraft:warden"
+          },
+          "attributes": [
+            {
+              "attribute": "minecraft:generic.max_health",
+              "operation": "MULTIPLY_BASE",
+              "randomness": 0.0,
+              "value": 0.001,
+              "offset": 0.5
+            },
+            {
+              "attribute": "minecraft:generic.attack_damage",
+              "operation": "MULTIPLY_BASE",
+              "randomness": 0.0,
+              "value": 0.001,
+              "offset": 0.0
+            }
+          ],
+          "experience_multiplier": 0.0
+        },
+        {
+          "entity_matches": {
+            "attitude": "ANY",
+            "type": "~^(minecraft:(ender_dragon|wither)|block_factorys_bosses:(infernal_dragon|kraken|sandworm|underworld_knight|yeti)|irons_spellbooks:(dead_king|fire_boss)|aquamirae:(captain_cornelia|maze_mother|shipbreaker)|netherman:(azazel|azazel_human)|twilightforest:(naga|lich|minoshroom|hydra|knight_phantom|ur_ghast|alpha_yeti|snow_queen)|born_in_chaos_v1:(lord_pumpkinhead|lord_pumpkinhead_withouta_horse|lord_the_headless|supreme_bonescaller|supreme_bonescaller_stage_2|krampus|lifestealer|lifestealer_true_form)|mowziesmobs:(ferrous_wroughtnaut|umvuthi|frostmaw|sculptor)|eternal_starlight:(the_gatekeeper|starlight_golem|lunar_monstrosity))$"
+          },
+          "attributes": [
+            {
+              "attribute": "minecraft:generic.max_health",
+              "operation": "MULTIPLY_BASE",
+              "randomness": 0.0,
+              "value": 0.001,
+              "offset": 1.2
+            },
+            {
+              "attribute": "minecraft:generic.attack_damage",
+              "operation": "MULTIPLY_BASE",
+              "randomness": 0.0,
+              "value": 0.001,
+              "offset": 0.2
+            }
+          ],
+          "experience_multiplier": 0.0
+        },
+        {
+          "entity_matches": {
+            "attitude": "ANY",
+            "type": "~^(minecraft:elder_guardian|cataclysm:(clawdian|the_watcher|the_prowler|kobolediator|wadjet|aptrgangr|coralssus|ender_golem)|block_factorys_bosses:pirate_captain|born_in_chaos_v1:(sir_pumpkinhead|sir_pumpkinhead_without_horse|sir_the_headless|mother_spider|dire_hound_leader)|eternal_starlight:permafrost|undergarden:forgotten_guardian|archaion:deepslate_sentinel)$"
+          },
+          "attributes": [
+            {
+              "attribute": "minecraft:generic.max_health",
+              "operation": "MULTIPLY_BASE",
+              "randomness": 0.0,
+              "value": 0.001,
+              "offset": 0.8
+            },
+            {
+              "attribute": "minecraft:generic.attack_damage",
+              "operation": "MULTIPLY_BASE",
+              "randomness": 0.0,
+              "value": 0.001,
+              "offset": 0.15
+            }
+          ],
+          "experience_multiplier": 0.0
+        }
+      ]
+    },
+    {
+      "name": "dungeon",
+      "parent": "adventure",
+      "allow_loot_scaling": true,
+      "entities": [
+        {
+          "entity_matches": {
+            "attitude": "HOSTILE",
+            "type": "!~^(minecraft:(ender_dragon|wither|warden|elder_guardian)|cataclysm:(clawdian|ignis|netherite_monstrosity|old_netherite_monstrosity|ender_guardian|the_harbinger|the_leviathan|ancient_remnant|ancient_ancient_remnant|maledictus|scylla|the_watcher|the_prowler|kobolediator|wadjet|aptrgangr|coralssus|ender_golem)|block_factorys_bosses:(infernal_dragon|kraken|sandworm|underworld_knight|yeti|pirate_captain)|irons_spellbooks:(dead_king|fire_boss)|aquamirae:(captain_cornelia|maze_mother|shipbreaker)|netherman:(azazel|azazel_human)|twilightforest:(naga|lich|minoshroom|hydra|knight_phantom|ur_ghast|alpha_yeti|snow_queen|plateau_boss)|born_in_chaos_v1:(lord_pumpkinhead|lord_pumpkinhead_withouta_horse|lord_the_headless|supreme_bonescaller|supreme_bonescaller_stage_2|krampus|lifestealer|lifestealer_true_form|sir_pumpkinhead|sir_pumpkinhead_without_horse|sir_the_headless|mother_spider|dire_hound_leader)|cataclysm_spellbooks:(summoned_.*|phantom_ancient_remnant)|irons_spellbooks:summoned_.*|mowziesmobs:(ferrous_wroughtnaut|umvuthi|frostmaw|sculptor|umvuthana_follower_player|umvuthana_crane_player)|eternal_starlight:(the_gatekeeper|starlight_golem|lunar_monstrosity)|archaion:last_of_deepslate|eternal_starlight:permafrost|undergarden:forgotten_guardian|archaion:deepslate_sentinel)$"
+          },
+          "attributes": [
+            {
+              "attribute": "minecraft:generic.attack_damage",
+              "operation": "ADDITION",
+              "randomness": 0.5,
+              "value": 0.5,
+              "offset": 3.75
+            },
+            {
+              "attribute": "apothic_attributes:projectile_damage",
+              "operation": "MULTIPLY_BASE",
+              "randomness": 0.05,
+              "value": 0.05,
+              "offset": 0.7
+            },
+            {
+              "attribute": "irons_spellbooks:spell_power",
+              "operation": "MULTIPLY_BASE",
+              "randomness": 0.05,
+              "value": 0.05,
+              "offset": 0.7
+            },
+            {
+              "attribute": "minecraft:generic.max_health",
+              "operation": "MULTIPLY_BASE",
+              "randomness": 0.1,
+              "value": 0.15,
+              "offset": 1.6
+            },
+            {
+              "attribute": "minecraft:generic.knockback_resistance",
+              "operation": "ADDITION",
+              "randomness": 0.0,
+              "value": 0.05,
+              "offset": 0.0
+            },
+            {
+              "attribute": "apothic_attributes:armor_shred",
+              "operation": "ADDITION",
+              "randomness": 0.0,
+              "value": 0.03,
+              "offset": 0.0
+            },
+            {
+              "attribute": "minecraft:generic.movement_speed",
+              "operation": "MULTIPLY_BASE",
+              "randomness": 0.0,
+              "value": 0.01,
+              "offset": 0.03
+            },
+            {
+              "attribute": "minecraft:generic.follow_range",
+              "operation": "MULTIPLY_BASE",
+              "randomness": 0.0,
+              "value": 0.02,
+              "offset": 0.35
+            }
+          ],
+          "experience_multiplier": 0.3
+        },
+        {
+          "entity_matches": {
+            "attitude": "ANY",
+            "type": ""
+          },
+          "spawners": {
+            "spawn_range_multiplier": 0.0,
+            "spawn_count_multiplier": 0.15,
+            "max_nearby_entities_multiplier": 0.15,
+            "min_spawn_delay_multiplier": -0.03,
+            "max_spawn_delay_multiplier": -0.03,
+            "required_player_range_multiplier": 0.0
+          },
+          "attributes": [],
+          "experience_multiplier": 0.0
+        }
+      ]
+    },
+    {
+      "name": "heroic",
+      "parent": "dungeon",
+      "entities": [
+        {
+          "entity_matches": {
+            "attitude": "HOSTILE",
+            "type": "!~^(minecraft:(ender_dragon|wither|warden|elder_guardian)|cataclysm:(clawdian|ignis|netherite_monstrosity|old_netherite_monstrosity|ender_guardian|the_harbinger|the_leviathan|ancient_remnant|ancient_ancient_remnant|maledictus|scylla|the_watcher|the_prowler|kobolediator|wadjet|aptrgangr|coralssus|ender_golem)|block_factorys_bosses:(infernal_dragon|kraken|sandworm|underworld_knight|yeti|pirate_captain)|irons_spellbooks:(dead_king|fire_boss)|aquamirae:(captain_cornelia|maze_mother|shipbreaker)|netherman:(azazel|azazel_human)|twilightforest:(naga|lich|minoshroom|hydra|knight_phantom|ur_ghast|alpha_yeti|snow_queen|plateau_boss)|born_in_chaos_v1:(lord_pumpkinhead|lord_pumpkinhead_withouta_horse|lord_the_headless|supreme_bonescaller|supreme_bonescaller_stage_2|krampus|lifestealer|lifestealer_true_form|sir_pumpkinhead|sir_pumpkinhead_without_horse|sir_the_headless|mother_spider|dire_hound_leader)|cataclysm_spellbooks:(summoned_.*|phantom_ancient_remnant)|irons_spellbooks:summoned_.*|mowziesmobs:(ferrous_wroughtnaut|umvuthi|frostmaw|sculptor|umvuthana_follower_player|umvuthana_crane_player)|eternal_starlight:(the_gatekeeper|starlight_golem|lunar_monstrosity)|archaion:last_of_deepslate|eternal_starlight:permafrost|undergarden:forgotten_guardian|archaion:deepslate_sentinel)$"
+          },
+          "attributes": [
+            {
+              "attribute": "minecraft:generic.attack_damage",
+              "operation": "ADDITION",
+              "randomness": 0.5,
+              "value": 0.5,
+              "offset": 4.0
+            },
+            {
+              "attribute": "apothic_attributes:projectile_damage",
+              "operation": "MULTIPLY_BASE",
+              "randomness": 0.05,
+              "value": 0.05,
+              "offset": 0.8
+            },
+            {
+              "attribute": "irons_spellbooks:spell_power",
+              "operation": "MULTIPLY_BASE",
+              "randomness": 0.05,
+              "value": 0.05,
+              "offset": 0.8
+            },
+            {
+              "attribute": "minecraft:generic.max_health",
+              "operation": "MULTIPLY_BASE",
+              "randomness": 0.1,
+              "value": 0.15,
+              "offset": 2.0
+            },
+            {
+              "attribute": "minecraft:generic.knockback_resistance",
+              "operation": "ADDITION",
+              "randomness": 0.0,
+              "value": 0.1,
+              "offset": 0.0
+            },
+            {
+              "attribute": "minecraft:generic.movement_speed",
+              "operation": "MULTIPLY_BASE",
+              "randomness": 0.0,
+              "value": 0.01,
+              "offset": 0.05
+            },
+            {
+              "attribute": "minecraft:generic.follow_range",
+              "operation": "MULTIPLY_BASE",
+              "randomness": 0.0,
+              "value": 0.02,
+              "offset": 0.5
+            }
+          ],
+          "experience_multiplier": 0.4
+        }
+      ]
+    }
+  ],
+  "loot_scaling": {
+    "armor": [
+      {
+        "item_matches": {
+          "id": "",
+          "loot_table_regex": "",
+          "rarity_regex": ""
+        },
+        "attributes": [
+          {
+            "attribute": "minecraft:generic.armor",
+            "operation": "MULTIPLY_BASE",
+            "randomness": 0.0,
+            "value": 0.05,
+            "offset": 0.0
+          },
+          {
+            "attribute": "minecraft:generic.max_health",
+            "operation": "ADDITION",
+            "randomness": 0.0,
+            "value": 0.5,
+            "offset": 0.0
+          }
+        ]
+      }
+    ],
+    "weapons": [
+      {
+        "item_matches": {
+          "id": "",
+          "loot_table_regex": "",
+          "rarity_regex": ""
+        },
+        "attributes": [
+          {
+            "attribute": "damage",
+            "operation": "MULTIPLY_BASE",
+            "randomness": 0.02,
+            "value": 0.05,
+            "offset": 0.0
+          },
+          {
+            "attribute": "power",
+            "operation": "MULTIPLY_BASE",
+            "randomness": 0.02,
+            "value": 0.05,
+            "offset": 0.0
+          }
+        ]
+      }
+    ],
+    "smithing_upgrade": {
+      "enabled": true,
+      "add_upon_upgrade": 0,
+      "multiply_upon_upgrade": 1.0
+    }
+  },
+  "dimensions": [
+    {
+      "world_matches": {
+        "dimension": "minecraft:overworld"
+      },
+      "difficulty": {
+        "name": "adventure",
+        "level": 2
+      },
+      "zones": [
+        {
+          "zone_matches": {
+            "structure": "~^(cataclysm:(sunken_city|acropolis|cursed_pyramid|frosted_prison)|block_factorys_bosses:kraken_ship|netherman:maze)$"
+          },
+          "difficulty": {
+            "name": "heroic",
+            "level": 6
+          }
+        },
+        {
+          "zone_matches": {
+            "structure": "~^(block_factorys_bosses:dragon_tower|minecraft:ancient_city)$"
+          },
+          "difficulty": {
+            "name": "heroic",
+            "level": 5
+          }
+        },
+        {
+          "zone_matches": {
+            "structure": "~^(betterstrongholds:stronghold|mtr:stronghold|minecraft:stronghold|mowziesmobs:monastery)$"
+          },
+          "difficulty": {
+            "name": "dungeon",
+            "level": 4
+          }
+        },
+        {
+          "zone_matches": {
+            "structure": "~^(mowziesmobs:(umvuthana_grove|frostmaw_spawn)|cataclysm:ancient_factory|block_factorys_bosses:(yeti_hideout|sandworm_nest)|irons_spellbooks:(catacombs|evoker_fort)|aquamirae:shipwreck|dungeons_arise:(coliseum|heavenly_challenger|heavenly_conqueror|keep_kayra|kisegi_sanctuary|mechanical_nest|monastery|shiraz_palace|typhon|foundry|plague_asylum|mining_complex)|minecraft:(monument|mansion))$"
+          },
+          "difficulty": {
+            "name": "dungeon",
+            "level": 3
+          }
+        },
+        {
+          "zone_matches": {
+            "structure": "~^(mowziesmobs:wrought_chamber|mtr:(desert|jungle|badlands|ocean)_temple|irons_spellbooks:(mountain_tower|pyromancer_tower|impaled_icebreaker|ice_spider_den)|dungeons_arise:(bandit_towers|bandit_village|illager_fort|illager_windmill|illager_galley|illager_corsair|giant_mushroom|mushroom_village|mushroom_mines|mining_system|abandoned_temple|ceryneian_hind|thornborn_towers|heavenly_rider|undead_pirate_ship|infested_temple|scorched_mines)|terralith:mage_.*|born_in_chaos_v1:(dark_tower_.*|infernal_pumpkin)|cataclysm:(abandoned_village|abandoned_spire|abandoned_temple|desert_site|desert_occupied_village|desert_temple|amethyst_nest)|aquamirae:pirate_.*|netherman:monument|apotheosis:tower_.*|betterdungeons:(skeleton|spider|zombie)_dungeon|minecraft:(desert_pyramid|jungle_pyramid|trial_chambers))$"
+          },
+          "difficulty": {
+            "name": "dungeon",
+            "level": 2
+          }
+        },
+        {
+          "zone_matches": {
+            "structure": "~^(archaion:ancient_keep)$"
+          },
+          "difficulty": {
+            "name": "heroic",
+            "level": 7
+          }
+        },
+        {
+          "zone_matches": {
+            "structure": "~^(eternal_starlight:portal_ruins_.*)$"
+          },
+          "difficulty": {
+            "name": "dungeon",
+            "level": 2
+          }
+        },
+        {
+          "zone_matches": {
+            "biome": "minecraft:deep_dark"
+          },
+          "difficulty": {
+            "name": "heroic",
+            "level": 5
+          }
+        },
+        {
+          "zone_matches": {
+            "biome": "~^(terralith:cave/(frostfire_caves|thermal_caves|mantle_caves|infested_caves|deep_caves))$"
+          },
+          "difficulty": {
+            "name": "adventure",
+            "level": 4
+          }
+        },
+        {
+          "zone_matches": {
+            "biome": "~^(terralith:cave/.*|minecraft:(dripstone_caves|lush_caves))$"
+          },
+          "difficulty": {
+            "name": "adventure",
+            "level": 3
+          }
+        },
+        {
+          "zone_matches": {
+            "biome": "~(desert|frozen|snowy|ice|jungle|badlands|mesa|volcan|glacial|peaks|spires|canyon|caldera|haze|yellowstone|basalt|wintry|siberian|mountains|alpine)"
+          },
+          "difficulty": {
+            "name": "adventure",
+            "level": 3
+          }
+        }
+      ],
+      "zone_specifiers": [],
+      "entities": []
+    },
+    {
+      "world_matches": {
+        "dimension": "minecraft:the_nether"
+      },
+      "difficulty": {
+        "name": "adventure",
+        "level": 3
+      },
+      "zones": [
+        {
+          "zone_matches": {
+            "structure": "~^(cataclysm:(burning_arena|soul_black_smith)|block_factorys_bosses:underworld_arena|netherman:mansion_nether|incendium:(forbidden_castle|sanctum)|irons_spellbooks:citadel)$"
+          },
+          "difficulty": {
+            "name": "heroic",
+            "level": 4
+          }
+        },
+        {
+          "zone_matches": {
+            "structure": "~^(minecraft:(fortress|bastion_remnant)|incendium:(nether_reactor|abandoned_tower|infernal_altar)|hellish_trials:.*|irons_spellbooks:ancient_battleground|mtr:nether_temple|netherman:(eye_columns|gast_chamber|gehen_statue|trap)|betterdungeons:small_nether_dungeon|mns:(mega_fortress|dragon_arena|large_arena|small_arena|nether_tower|copper_tower|train|giant_skull))$"
+          },
+          "difficulty": {
+            "name": "dungeon",
+            "level": 4
+          }
+        }
+      ],
+      "zone_specifiers": [],
+      "entities": [
+        {
+          "entity_type": "minecraft:wither",
+          "loot_table": "minecraft:entities/wither",
+          "difficulty": {
+            "name": "dungeon",
+            "level": 4
+          }
+        }
+      ]
+    },
+    {
+      "world_matches": {
+        "dimension": "minecraft:the_end"
+      },
+      "difficulty": {
+        "name": "adventure",
+        "level": 5
+      },
+      "zones": [
+        {
+          "zone_matches": {
+            "structure": "~^(cataclysm:ruined_citadel)$"
+          },
+          "difficulty": {
+            "name": "heroic",
+            "level": 5
+          }
+        },
+        {
+          "zone_matches": {
+            "structure": "~^(minecraft:end_city|mes:(mega_ship.*|phantom_citadel|ender_spire|enderkeep_courtyard|starlight_voyager))$"
+          },
+          "difficulty": {
+            "name": "dungeon",
+            "level": 5
+          }
+        }
+      ],
+      "zone_specifiers": [],
+      "entities": [
+        {
+          "entity_type": "minecraft:ender_dragon",
+          "loot_table": "minecraft:entities/ender_dragon",
+          "difficulty": {
+            "name": "dungeon",
+            "level": 5
+          }
+        }
+      ]
+    },
+    {
+      "world_matches": {
+        "dimension": "twilightforest:twilight_forest"
+      },
+      "difficulty": {
+        "name": "adventure",
+        "level": 2
+      },
+      "zones": [
+        {
+          "zone_matches": {
+            "structure": "~^(twilightforest:final_castle)$"
+          },
+          "difficulty": {
+            "name": "heroic",
+            "level": 5
+          }
+        },
+        {
+          "zone_matches": {
+            "structure": "~^(twilightforest:(aurora_palace|yeti_cave))$"
+          },
+          "difficulty": {
+            "name": "dungeon",
+            "level": 5
+          }
+        },
+        {
+          "zone_matches": {
+            "structure": "~^(twilightforest:(dark_tower|troll_cave))$"
+          },
+          "difficulty": {
+            "name": "dungeon",
+            "level": 4
+          }
+        },
+        {
+          "zone_matches": {
+            "structure": "~^(twilightforest:(labyrinth|hydra_lair|knight_stronghold))$"
+          },
+          "difficulty": {
+            "name": "dungeon",
+            "level": 3
+          }
+        },
+        {
+          "zone_matches": {
+            "structure": "~^(twilightforest:(naga_courtyard|lich_tower|hedge_maze))$"
+          },
+          "difficulty": {
+            "name": "dungeon",
+            "level": 2
+          }
+        }
+      ],
+      "zone_specifiers": [],
+      "entities": []
+    },
+    {
+      "world_matches": {
+        "dimension": "undergarden:undergarden"
+      },
+      "difficulty": {
+        "name": "adventure",
+        "level": 2
+      },
+      "zones": [
+        {
+          "zone_matches": {
+            "structure": "~^(undergarden:(catacombs|forgotten_vestige))$"
+          },
+          "difficulty": {
+            "name": "dungeon",
+            "level": 2
+          }
+        },
+        {
+          "zone_matches": {
+            "structure": "~^(undergarden:(denizen_camp|depleted_mine))$"
+          },
+          "difficulty": {
+            "name": "dungeon",
+            "level": 2
+          }
+        }
+      ],
+      "zone_specifiers": [],
+      "entities": []
+    },
+    {
+      "world_matches": {
+        "dimension": "eternal_starlight:starlight"
+      },
+      "difficulty": {
+        "name": "adventure",
+        "level": 3
+      },
+      "zones": [
+        {
+          "zone_matches": {
+            "structure": "~^(eternal_starlight:(golem_forge|cursed_garden))$"
+          },
+          "difficulty": {
+            "name": "dungeon",
+            "level": 4
+          }
+        },
+        {
+          "zone_matches": {
+            "structure": "~^(eternal_starlight:stranghoul_den)$"
+          },
+          "difficulty": {
+            "name": "dungeon",
+            "level": 3
+          }
+        }
+      ],
+      "zone_specifiers": [],
+      "entities": []
+    },
+    {
+      "world_matches": {
+        "dimension": "deeperdarker:otherside"
+      },
+      "difficulty": {
+        "name": "adventure",
+        "level": 6
+      },
+      "zones": [
+        {
+          "zone_matches": {
+            "structure": "~^(deeperdarker:ancient_temple)$"
+          },
+          "difficulty": {
+            "name": "heroic",
+            "level": 6
+          }
+        }
+      ],
+      "zone_specifiers": [],
+      "entities": []
+    }
+  ]
+}

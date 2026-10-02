@@ -1,0 +1,52 @@
+{
+  "content": {
+    "nether_helm": null,
+    "nether_chest": null,
+    "nether_legs": null,
+    "nether_boots": null,
+    "diamond_helm": {
+      "type": "item",
+      "content": "minecraft:diamond_helmet",
+      "unitWorth": 2000,
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "rarity": "RARE",
+      "repRequired": 15
+    },
+    "diamond_chest": {
+      "type": "item",
+      "content": "minecraft:diamond_chestplate",
+      "unitWorth": 3200,
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "rarity": "RARE",
+      "repRequired": 15
+    },
+    "diamond_legs": {
+      "type": "item",
+      "content": "minecraft:diamond_leggings",
+      "unitWorth": 2800,
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "rarity": "RARE",
+      "repRequired": 15
+    },
+    "diamond_boots": {
+      "type": "item",
+      "content": "minecraft:diamond_boots",
+      "unitWorth": 1600,
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "rarity": "RARE",
+      "repRequired": 15
+    }
+  }
+}

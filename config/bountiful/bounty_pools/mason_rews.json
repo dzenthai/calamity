@@ -1,0 +1,123 @@
+{
+  "content": {
+    "hc_hammer": {
+      "type": "item",
+      "content": "handcrafted:hammer",
+      "unitWorth": 1500,
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "rarity": "UNCOMMON"
+    },
+    "amethyst": {
+      "type": "item",
+      "content": "minecraft:amethyst_shard",
+      "unitWorth": 250,
+      "amount": {
+        "min": 2,
+        "max": 12
+      }
+    },
+    "dyes": {
+      "type": "item_tag",
+      "content": "c:dyes",
+      "unitWorth": 40,
+      "amount": {
+        "min": 4,
+        "max": 16
+      }
+    },
+    "sup_globe": {
+      "type": "item",
+      "content": "supplementaries:globe",
+      "unitWorth": 2500,
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "rarity": "RARE"
+    },
+    "sup_hourglass": {
+      "type": "item",
+      "content": "supplementaries:hourglass",
+      "unitWorth": 1800,
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "rarity": "RARE"
+    },
+    "sup_pedestal": {
+      "type": "item",
+      "content": "supplementaries:pedestal",
+      "unitWorth": 700,
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "rarity": "UNCOMMON"
+    },
+    "sup_item_shelf": {
+      "type": "item",
+      "content": "supplementaries:item_shelf",
+      "unitWorth": 150,
+      "amount": {
+        "min": 4,
+        "max": 12
+      }
+    },
+    "trophy_bear": {
+      "type": "item",
+      "content": "handcrafted:bear_trophy",
+      "unitWorth": 3500,
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "rarity": "EPIC",
+      "repRequired": 10
+    },
+    "trophy_goat": {
+      "type": "item",
+      "content": "handcrafted:goat_trophy",
+      "unitWorth": 2500,
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "rarity": "RARE"
+    },
+    "trophy_fox": {
+      "type": "item",
+      "content": "handcrafted:fox_trophy",
+      "unitWorth": 2500,
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "rarity": "RARE"
+    },
+    "trophy_wither": {
+      "type": "item",
+      "content": "handcrafted:wither_skeleton_trophy",
+      "unitWorth": 6000,
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "rarity": "LEGENDARY",
+      "repRequired": 25
+    },
+    "fancy_painting": {
+      "type": "item",
+      "content": "handcrafted:fancy_painting",
+      "unitWorth": 1200,
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "rarity": "UNCOMMON"
+    }
+  }
+}

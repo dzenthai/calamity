@@ -1,0 +1,177 @@
+{
+  "content": {
+    "stone_bricks": {
+      "type": "item",
+      "content": "minecraft:stone_bricks",
+      "unitWorth": 50,
+      "amount": {
+        "min": 16,
+        "max": 64
+      }
+    },
+    "bricks": {
+      "type": "item",
+      "content": "minecraft:bricks",
+      "unitWorth": 70,
+      "amount": {
+        "min": 8,
+        "max": 48
+      }
+    },
+    "mud_bricks": {
+      "type": "item",
+      "content": "minecraft:mud_bricks",
+      "unitWorth": 60,
+      "amount": {
+        "min": 8,
+        "max": 48
+      },
+      "biomes": [
+        "#c:is_swamp"
+      ]
+    },
+    "sandstone": {
+      "type": "item",
+      "content": "minecraft:cut_sandstone",
+      "unitWorth": 40,
+      "amount": {
+        "min": 16,
+        "max": 64
+      },
+      "biomes": [
+        "#c:is_desert",
+        "#minecraft:is_badlands"
+      ]
+    },
+    "deepslate_bricks": {
+      "type": "item",
+      "content": "minecraft:deepslate_bricks",
+      "unitWorth": 90,
+      "amount": {
+        "min": 8,
+        "max": 48
+      },
+      "rarity": "UNCOMMON"
+    },
+    "polished_andesite": {
+      "type": "item",
+      "content": "minecraft:polished_andesite",
+      "unitWorth": 35,
+      "amount": {
+        "min": 16,
+        "max": 64
+      }
+    },
+    "glass": {
+      "type": "item_tag",
+      "content": "c:glass_blocks",
+      "unitWorth": 40,
+      "amount": {
+        "min": 16,
+        "max": 64
+      }
+    },
+    "terracotta": {
+      "type": "item_tag",
+      "content": "minecraft:terracotta",
+      "unitWorth": 60,
+      "amount": {
+        "min": 8,
+        "max": 32
+      }
+    },
+    "lantern": {
+      "type": "item",
+      "content": "minecraft:lantern",
+      "unitWorth": 450,
+      "amount": {
+        "min": 2,
+        "max": 8
+      }
+    },
+    "hc_oak_chair": {
+      "type": "item",
+      "content": "handcrafted:oak_chair",
+      "unitWorth": 400,
+      "amount": {
+        "min": 2,
+        "max": 6
+      }
+    },
+    "hc_oak_table": {
+      "type": "item",
+      "content": "handcrafted:oak_table",
+      "unitWorth": 500,
+      "amount": {
+        "min": 1,
+        "max": 4
+      }
+    },
+    "hc_oak_bench": {
+      "type": "item",
+      "content": "handcrafted:oak_bench",
+      "unitWorth": 450,
+      "amount": {
+        "min": 1,
+        "max": 4
+      }
+    },
+    "hc_cupboard": {
+      "type": "item",
+      "content": "handcrafted:oak_cupboard",
+      "unitWorth": 600,
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "rarity": "UNCOMMON"
+    },
+    "hc_fancy_bed": {
+      "type": "item",
+      "content": "handcrafted:oak_fancy_bed",
+      "unitWorth": 1500,
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "rarity": "RARE"
+    },
+    "sup_timber": {
+      "type": "item",
+      "content": "supplementaries:timber_frame",
+      "unitWorth": 90,
+      "amount": {
+        "min": 8,
+        "max": 32
+      }
+    },
+    "sup_ash_bricks": {
+      "type": "item",
+      "content": "supplementaries:ash_brick",
+      "unitWorth": 120,
+      "amount": {
+        "min": 8,
+        "max": 32
+      },
+      "rarity": "UNCOMMON"
+    },
+    "sup_planter": {
+      "type": "item",
+      "content": "supplementaries:planter",
+      "unitWorth": 300,
+      "amount": {
+        "min": 2,
+        "max": 8
+      }
+    },
+    "sup_sconce": {
+      "type": "item",
+      "content": "supplementaries:sconce",
+      "unitWorth": 250,
+      "amount": {
+        "min": 4,
+        "max": 12
+      }
+    }
+  }
+}

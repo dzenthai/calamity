@@ -1,0 +1,70 @@
+{
+  "chapter": "questlog:prologue",
+  "sort_order": 10,
+  "title": "Старик у врат",
+  "icon": {
+    "item": "minecraft:soul_lantern"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:prologue/serpent_coil",
+      "name": "Предыдущая запись"
+    }
+  ],
+  "show_popup_on_unlock": true,
+  "details_open_by_default": true,
+  "description": "У костра сидит старик в выцветшем плаще со знаком солнца. Он не оборачивается.\n\n§o«Илвен... — говорит он наконец. — Значит, он мёртв. Он был моим последним учеником.»§r\n\nПауза. Он смотрит на письмо в твоей руке.\n\n§o«Ты ведь не дочитал последнюю строку? Хорошо. Меня зовут Аберфорт Эльдвейр. Пойдём — у нас мало времени.»§r\n\n§8Конец пролога.",
+  "description_completed": "Пролог завершён. Доски заказов теперь предложат работу посерьёзнее.",
+  "objectives": [
+    {
+      "type": "questlog:read",
+      "name": "Выслушать"
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "item": {
+        "id": "minecraft:written_book",
+        "count": 1,
+        "components": {
+          "minecraft:written_book_content": {
+            "title": "Записка у врат",
+            "author": "А. Э.",
+            "resolved": true,
+            "pages": [
+              "{\"text\": \"Илвен был моим последним учеником. Если ты здесь — значит, он довёл тебя дальше, чем дошёл сам.\\n\\nЗабери эту записку. Возвращайся к вратам, когда будешь готов. Я буду ждать.\"}",
+              "{\"text\": \"§8На обороте, другим почерком, очень мелко:\\n\\n§o«Ты ведь не дочитал последнюю строку? Хорошо.»\"}"
+            ]
+          }
+        }
+      },
+      "count": 1,
+      "auto_claim": true,
+      "name": "Записка у врат"
+    },
+    {
+      "type": "questlog:experience",
+      "experience": 150
+    },
+    {
+      "type": "questlog:command",
+      "command": "/tag @s add calamity_stage_1",
+      "name": "Глава I открыта",
+      "auto_claim": true,
+      "icon": {
+        "item": "minecraft:command_block"
+      }
+    },
+    {
+      "type": "questlog:command",
+      "command": "/title @s title {\"text\":\"Пепел Агарвена\",\"color\":\"gold\"}",
+      "name": "Конец пролога",
+      "auto_claim": true,
+      "icon": {
+        "item": "minecraft:command_block"
+      }
+    }
+  ]
+}

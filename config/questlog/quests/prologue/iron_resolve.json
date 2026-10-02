@@ -1,0 +1,87 @@
+{
+  "chapter": "questlog:prologue",
+  "sort_order": 5,
+  "title": "Железо и воля",
+  "icon": {
+    "item": "minecraft:iron_chestplate"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:prologue/drawn_to_light",
+      "name": "Предыдущая запись"
+    }
+  ],
+  "description": "Клинок Илвена хорош, но он один, а их — много.\n\nНайди железо и надень его. Помни: броня смягчает удар, но не отменяет его. Поднятый щит и вовремя сделанный шаг назад спасут чаще, чем лишняя пластина.\n\n§8Здесь всё честно: каждый удар врага можно прочитать.",
+  "description_completed": "Металл тяжёлый. Привыкнешь.",
+  "objectives": [
+    {
+      "type": "questlog:or",
+      "name": "Добыть 12 железных слитков",
+      "objectives": [
+        {
+          "type": "questlog:item_obtain",
+          "item": "minecraft:iron_ingot",
+          "required_amount": 12
+        },
+        {
+          "type": "questlog:item_craft",
+          "item": "minecraft:iron_ingot",
+          "required_amount": 12
+        }
+      ],
+      "icon": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    {
+      "type": "questlog:or",
+      "name": "Железный нагрудник",
+      "objectives": [
+        {
+          "type": "questlog:item_obtain",
+          "item": "minecraft:iron_chestplate",
+          "required_amount": 1
+        },
+        {
+          "type": "questlog:item_craft",
+          "item": "minecraft:iron_chestplate",
+          "required_amount": 1
+        }
+      ],
+      "icon": {
+        "item": "minecraft:iron_chestplate"
+      }
+    },
+    {
+      "type": "questlog:or",
+      "name": "Щит",
+      "objectives": [
+        {
+          "type": "questlog:item_obtain",
+          "item": "minecraft:shield",
+          "required_amount": 1
+        },
+        {
+          "type": "questlog:item_craft",
+          "item": "minecraft:shield",
+          "required_amount": 1
+        }
+      ],
+      "icon": {
+        "item": "minecraft:shield"
+      }
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "item": "minecraft:iron_ingot",
+      "count": 6
+    },
+    {
+      "type": "questlog:experience",
+      "experience": 60
+    }
+  ]
+}

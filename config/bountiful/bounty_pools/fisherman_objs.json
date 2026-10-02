@@ -1,0 +1,165 @@
+{
+  "content": {
+    "aq_cod": {
+      "type": "item",
+      "content": "aquaculture:atlantic_cod",
+      "unitWorth": 90,
+      "amount": {
+        "min": 2,
+        "max": 8
+      },
+      "biomes": [
+        "#minecraft:is_beach",
+        "#minecraft:is_ocean"
+      ]
+    },
+    "aq_herring": {
+      "type": "item",
+      "content": "aquaculture:atlantic_herring",
+      "unitWorth": 80,
+      "amount": {
+        "min": 2,
+        "max": 8
+      },
+      "biomes": [
+        "#minecraft:is_beach",
+        "#minecraft:is_ocean"
+      ]
+    },
+    "aq_tuna": {
+      "type": "item",
+      "content": "aquaculture:tuna",
+      "unitWorth": 400,
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "rarity": "UNCOMMON",
+      "biomes": [
+        "#minecraft:is_beach",
+        "#minecraft:is_ocean"
+      ]
+    },
+    "aq_trout": {
+      "type": "item",
+      "content": "aquaculture:rainbow_trout",
+      "unitWorth": 120,
+      "amount": {
+        "min": 2,
+        "max": 6
+      }
+    },
+    "aq_carp": {
+      "type": "item",
+      "content": "aquaculture:carp",
+      "unitWorth": 100,
+      "amount": {
+        "min": 2,
+        "max": 6
+      }
+    },
+    "aq_catfish": {
+      "type": "item",
+      "content": "aquaculture:catfish",
+      "unitWorth": 130,
+      "amount": {
+        "min": 2,
+        "max": 6
+      },
+      "biomes": [
+        "#c:is_swamp"
+      ]
+    },
+    "aq_perch": {
+      "type": "item",
+      "content": "aquaculture:perch",
+      "unitWorth": 110,
+      "amount": {
+        "min": 2,
+        "max": 6
+      }
+    },
+    "aq_piranha": {
+      "type": "item",
+      "content": "aquaculture:piranha",
+      "unitWorth": 350,
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "rarity": "UNCOMMON",
+      "biomes": [
+        "#minecraft:is_jungle"
+      ]
+    },
+    "aq_arapaima": {
+      "type": "item",
+      "content": "aquaculture:arapaima",
+      "unitWorth": 900,
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "rarity": "RARE",
+      "biomes": [
+        "#minecraft:is_jungle"
+      ]
+    },
+    "aq_halibut": {
+      "type": "item",
+      "content": "aquaculture:pacific_halibut",
+      "unitWorth": 450,
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "rarity": "UNCOMMON",
+      "biomes": [
+        "#c:is_snowy",
+        "#minecraft:is_beach",
+        "#minecraft:is_ocean"
+      ]
+    },
+    "aq_goldfish": {
+      "type": "item",
+      "content": "aquaculture:goldfish",
+      "unitWorth": 1500,
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "rarity": "EPIC",
+      "repRequired": 10
+    },
+    "aq_bottle": {
+      "type": "item",
+      "content": "aquaculture:message_in_a_bottle",
+      "unitWorth": 1200,
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "rarity": "RARE"
+    },
+    "aq_fish_bones": {
+      "type": "item",
+      "content": "aquaculture:fish_bones",
+      "unitWorth": 60,
+      "amount": {
+        "min": 4,
+        "max": 16
+      }
+    },
+    "catch_any": {
+      "type": "criteria",
+      "content": "minecraft:fishing_rod_hooked",
+      "unitWorth": 150,
+      "amount": {
+        "min": 4,
+        "max": 16
+      },
+      "name": "Land a good catch",
+      "conditions": {}
+    }
+  }
+}

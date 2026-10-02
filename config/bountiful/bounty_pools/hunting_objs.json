@@ -1,0 +1,706 @@
+{
+  "content": {
+    "undead_horde": {
+      "type": "criteria",
+      "content": "minecraft:player_killed_entity",
+      "unitWorth": 220,
+      "amount": {
+        "min": 6,
+        "max": 20
+      },
+      "timeMult": 3.0,
+      "name": "Put down the restless dead",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "#minecraft:undead"
+            }
+          }
+        ]
+      }
+    },
+    "arthropods": {
+      "type": "criteria",
+      "content": "minecraft:player_killed_entity",
+      "unitWorth": 200,
+      "amount": {
+        "min": 6,
+        "max": 16
+      },
+      "timeMult": 3.0,
+      "name": "Clear out the crawling pests",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "#minecraft:arthropod"
+            }
+          }
+        ]
+      }
+    },
+    "raiders": {
+      "type": "criteria",
+      "content": "minecraft:player_killed_entity",
+      "unitWorth": 900,
+      "amount": {
+        "min": 2,
+        "max": 6
+      },
+      "rarity": "UNCOMMON",
+      "timeMult": 4.0,
+      "name": "Break an illager warband",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "#minecraft:raiders"
+            }
+          }
+        ]
+      }
+    },
+    "skeleton": {
+      "type": "entity",
+      "content": "minecraft:skeleton",
+      "unitWorth": 300,
+      "amount": {
+        "min": 2,
+        "max": 8
+      },
+      "timeMult": 3.0
+    },
+    "creeper": {
+      "type": "entity",
+      "content": "minecraft:creeper",
+      "unitWorth": 550,
+      "amount": {
+        "min": 1,
+        "max": 5
+      },
+      "timeMult": 3.0
+    },
+    "witch": {
+      "type": "entity",
+      "content": "minecraft:witch",
+      "unitWorth": 900,
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "rarity": "UNCOMMON",
+      "timeMult": 3.0
+    },
+    "phantom": {
+      "type": "entity",
+      "content": "minecraft:phantom",
+      "unitWorth": 600,
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "rarity": "UNCOMMON",
+      "timeMult": 3.0
+    },
+    "vindicator": {
+      "type": "entity",
+      "content": "minecraft:vindicator",
+      "unitWorth": 1200,
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "rarity": "RARE",
+      "timeMult": 3.0
+    },
+    "enderman": {
+      "type": "entity",
+      "content": "minecraft:enderman",
+      "unitWorth": 800,
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "rarity": "UNCOMMON",
+      "timeMult": 3.0
+    },
+    "husk": {
+      "type": "entity",
+      "content": "minecraft:husk",
+      "unitWorth": 320,
+      "amount": {
+        "min": 2,
+        "max": 8
+      },
+      "timeMult": 3.0,
+      "biomes": [
+        "#c:is_desert",
+        "#minecraft:is_badlands"
+      ]
+    },
+    "stray": {
+      "type": "entity",
+      "content": "minecraft:stray",
+      "unitWorth": 350,
+      "amount": {
+        "min": 2,
+        "max": 8
+      },
+      "timeMult": 3.0,
+      "biomes": [
+        "#c:is_snowy"
+      ]
+    },
+    "bogged": {
+      "type": "entity",
+      "content": "minecraft:bogged",
+      "unitWorth": 350,
+      "amount": {
+        "min": 2,
+        "max": 8
+      },
+      "timeMult": 3.0,
+      "biomes": [
+        "#c:is_swamp"
+      ]
+    },
+    "slime": {
+      "type": "entity",
+      "content": "minecraft:slime",
+      "unitWorth": 250,
+      "amount": {
+        "min": 3,
+        "max": 10
+      },
+      "timeMult": 3.0,
+      "biomes": [
+        "#c:is_swamp"
+      ]
+    },
+    "drowned": {
+      "type": "entity",
+      "content": "minecraft:drowned",
+      "unitWorth": 350,
+      "amount": {
+        "min": 2,
+        "max": 8
+      },
+      "timeMult": 3.0,
+      "biomes": [
+        "#minecraft:is_beach",
+        "#minecraft:is_ocean"
+      ]
+    },
+    "bic_decaying": {
+      "type": "entity",
+      "content": "born_in_chaos_v1:decaying_zombie",
+      "unitWorth": 400,
+      "amount": {
+        "min": 2,
+        "max": 6
+      },
+      "timeMult": 3.0
+    },
+    "bic_decrepit": {
+      "type": "entity",
+      "content": "born_in_chaos_v1:decrepit_skeleton",
+      "unitWorth": 420,
+      "amount": {
+        "min": 2,
+        "max": 6
+      },
+      "timeMult": 3.0
+    },
+    "bic_barrel": {
+      "type": "entity",
+      "content": "born_in_chaos_v1:barrel_zombie",
+      "unitWorth": 500,
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "timeMult": 3.0
+    },
+    "bic_bone_imp": {
+      "type": "entity",
+      "content": "born_in_chaos_v1:bone_imp",
+      "unitWorth": 350,
+      "amount": {
+        "min": 2,
+        "max": 6
+      },
+      "timeMult": 3.0
+    },
+    "bic_swarmer": {
+      "type": "entity",
+      "content": "born_in_chaos_v1:swarmer",
+      "unitWorth": 380,
+      "amount": {
+        "min": 2,
+        "max": 6
+      },
+      "timeMult": 3.0
+    },
+    "bic_clown": {
+      "type": "entity",
+      "content": "born_in_chaos_v1:zombie_clown",
+      "unitWorth": 800,
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "rarity": "UNCOMMON",
+      "timeMult": 3.0
+    },
+    "bic_hound": {
+      "type": "entity",
+      "content": "born_in_chaos_v1:dread_hound",
+      "unitWorth": 750,
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "rarity": "UNCOMMON",
+      "timeMult": 3.0
+    },
+    "bic_fisherman": {
+      "type": "entity",
+      "content": "born_in_chaos_v1:zombie_fisherman",
+      "unitWorth": 600,
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "rarity": "UNCOMMON",
+      "timeMult": 3.0,
+      "biomes": [
+        "#minecraft:is_beach",
+        "#minecraft:is_ocean",
+        "#c:is_swamp"
+      ]
+    },
+    "bic_lumberjack": {
+      "type": "entity",
+      "content": "born_in_chaos_v1:zombie_lumberjack",
+      "unitWorth": 600,
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "rarity": "UNCOMMON",
+      "timeMult": 3.0,
+      "biomes": [
+        "#minecraft:is_taiga"
+      ]
+    },
+    "bic_thrasher": {
+      "type": "entity",
+      "content": "born_in_chaos_v1:skeleton_thrasher",
+      "unitWorth": 1100,
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "rarity": "RARE",
+      "timeMult": 3.0
+    },
+    "bic_bruiser": {
+      "type": "entity",
+      "content": "born_in_chaos_v1:zombie_bruiser",
+      "unitWorth": 1300,
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "rarity": "RARE",
+      "timeMult": 3.0
+    },
+    "bic_demoman": {
+      "type": "entity",
+      "content": "born_in_chaos_v1:skeleton_demoman",
+      "unitWorth": 1200,
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "rarity": "RARE",
+      "timeMult": 3.0
+    },
+    "bic_persecutor": {
+      "type": "entity",
+      "content": "born_in_chaos_v1:scarlet_persecutor",
+      "unitWorth": 1600,
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "rarity": "RARE",
+      "repRequired": 5,
+      "timeMult": 3.0
+    },
+    "bic_missioner": {
+      "type": "entity",
+      "content": "born_in_chaos_v1:missioner",
+      "unitWorth": 1500,
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "rarity": "RARE",
+      "repRequired": 5,
+      "timeMult": 3.0
+    },
+    "bic_chaos_knight": {
+      "type": "entity",
+      "content": "born_in_chaos_v1:fallen_chaos_knight",
+      "unitWorth": 2600,
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "rarity": "EPIC",
+      "repRequired": 15,
+      "timeMult": 5.0
+    },
+    "bic_stalker": {
+      "type": "entity",
+      "content": "born_in_chaos_v1:nightmare_stalker",
+      "unitWorth": 3200,
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "rarity": "EPIC",
+      "repRequired": 15,
+      "timeMult": 5.0
+    },
+    "mm_foliaath": {
+      "type": "entity",
+      "content": "mowziesmobs:foliaath",
+      "unitWorth": 800,
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "rarity": "UNCOMMON",
+      "timeMult": 3.0,
+      "biomes": [
+        "#minecraft:is_jungle"
+      ]
+    },
+    "mm_umvuthana": {
+      "type": "entity",
+      "content": "mowziesmobs:umvuthana",
+      "unitWorth": 900,
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "rarity": "UNCOMMON",
+      "timeMult": 3.0,
+      "biomes": [
+        "#minecraft:is_savanna"
+      ]
+    },
+    "mm_raptor": {
+      "type": "entity",
+      "content": "mowziesmobs:umvuthana_raptor",
+      "unitWorth": 2000,
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "rarity": "RARE",
+      "repRequired": 5,
+      "timeMult": 3.0,
+      "biomes": [
+        "#minecraft:is_savanna"
+      ]
+    },
+    "mm_grottol": {
+      "type": "entity",
+      "content": "mowziesmobs:grottol",
+      "unitWorth": 1800,
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "rarity": "RARE",
+      "timeMult": 5.0
+    },
+    "mm_naga": {
+      "type": "entity",
+      "content": "mowziesmobs:naga",
+      "unitWorth": 1600,
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "rarity": "RARE",
+      "timeMult": 3.0,
+      "biomes": [
+        "#minecraft:is_beach",
+        "#minecraft:is_ocean"
+      ]
+    },
+    "cat_koboleton": {
+      "type": "entity",
+      "content": "cataclysm:koboleton",
+      "unitWorth": 900,
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "rarity": "UNCOMMON",
+      "timeMult": 3.0,
+      "biomes": [
+        "#c:is_desert",
+        "#minecraft:is_badlands"
+      ]
+    },
+    "cat_draugr": {
+      "type": "entity",
+      "content": "cataclysm:draugr",
+      "unitWorth": 900,
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "rarity": "UNCOMMON",
+      "timeMult": 3.0,
+      "biomes": [
+        "#c:is_snowy"
+      ]
+    },
+    "cat_elite_draugr": {
+      "type": "entity",
+      "content": "cataclysm:elite_draugr",
+      "unitWorth": 1800,
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "rarity": "RARE",
+      "repRequired": 5,
+      "timeMult": 3.0,
+      "biomes": [
+        "#c:is_snowy"
+      ]
+    },
+    "cat_deepling": {
+      "type": "entity",
+      "content": "cataclysm:deepling",
+      "unitWorth": 1100,
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "rarity": "RARE",
+      "timeMult": 3.0,
+      "biomes": [
+        "#minecraft:is_beach",
+        "#minecraft:is_ocean"
+      ]
+    },
+    "cat_amethyst_crab": {
+      "type": "entity",
+      "content": "cataclysm:amethyst_crab",
+      "unitWorth": 5000,
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "rarity": "EPIC",
+      "repRequired": 15,
+      "timeMult": 6.0
+    },
+    "is_cultist": {
+      "type": "entity",
+      "content": "irons_spellbooks:cultist",
+      "unitWorth": 1000,
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "rarity": "UNCOMMON",
+      "timeMult": 3.0
+    },
+    "is_necromancer": {
+      "type": "entity",
+      "content": "irons_spellbooks:necromancer",
+      "unitWorth": 1500,
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "rarity": "RARE",
+      "timeMult": 3.0
+    },
+    "is_cryomancer": {
+      "type": "entity",
+      "content": "irons_spellbooks:cryomancer",
+      "unitWorth": 1500,
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "rarity": "RARE",
+      "timeMult": 3.0,
+      "biomes": [
+        "#c:is_snowy"
+      ]
+    },
+    "is_magehunter": {
+      "type": "entity",
+      "content": "irons_spellbooks:magehunter_vindicator",
+      "unitWorth": 2000,
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "rarity": "RARE",
+      "repRequired": 5,
+      "timeMult": 3.0
+    },
+    "is_archevoker": {
+      "type": "entity",
+      "content": "irons_spellbooks:archevoker",
+      "unitWorth": 3500,
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "rarity": "EPIC",
+      "repRequired": 15,
+      "timeMult": 5.0
+    },
+    "aq_tortured_soul": {
+      "type": "entity",
+      "content": "aquamirae:tortured_soul",
+      "unitWorth": 900,
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "rarity": "UNCOMMON",
+      "timeMult": 3.0,
+      "biomes": [
+        "#c:is_snowy"
+      ]
+    },
+    "aq_anglerfish": {
+      "type": "entity",
+      "content": "aquamirae:anglerfish",
+      "unitWorth": 1000,
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "rarity": "UNCOMMON",
+      "timeMult": 3.0,
+      "biomes": [
+        "#c:is_snowy"
+      ]
+    },
+    "aq_eel": {
+      "type": "entity",
+      "content": "aquamirae:eel",
+      "unitWorth": 1800,
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "rarity": "RARE",
+      "repRequired": 5,
+      "timeMult": 3.0,
+      "biomes": [
+        "#c:is_snowy"
+      ]
+    },
+    "nat_alligator": {
+      "type": "entity",
+      "content": "naturalist:alligator",
+      "unitWorth": 900,
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "rarity": "UNCOMMON",
+      "timeMult": 3.0,
+      "biomes": [
+        "#c:is_swamp"
+      ]
+    },
+    "nat_komodo": {
+      "type": "entity",
+      "content": "naturalist:komodo_dragon",
+      "unitWorth": 900,
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "rarity": "UNCOMMON",
+      "timeMult": 3.0,
+      "biomes": [
+        "#minecraft:is_jungle"
+      ]
+    },
+    "nat_boar": {
+      "type": "entity",
+      "content": "naturalist:boar",
+      "unitWorth": 400,
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "timeMult": 3.0,
+      "biomes": [
+        "#minecraft:is_savanna",
+        "#minecraft:is_taiga"
+      ]
+    },
+    "blaze": {
+      "type": "entity",
+      "content": "minecraft:blaze",
+      "unitWorth": 1000,
+      "amount": {
+        "min": 2,
+        "max": 5
+      },
+      "rarity": "RARE",
+      "repRequired": 5,
+      "timeMult": 3.0
+    },
+    "wither_skeleton": {
+      "type": "entity",
+      "content": "minecraft:wither_skeleton",
+      "unitWorth": 1600,
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "rarity": "RARE",
+      "repRequired": 10,
+      "timeMult": 3.0
+    },
+    "piglin_brute": {
+      "type": "entity",
+      "content": "minecraft:piglin_brute",
+      "unitWorth": 2500,
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "rarity": "EPIC",
+      "repRequired": 15,
+      "timeMult": 3.0
+    }
+  }
+}

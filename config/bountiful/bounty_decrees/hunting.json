@@ -1,0 +1,13 @@
+{
+  "linkedProfessions": [
+    "weaponsmith",
+    "armorer"
+  ],
+  "objectives": [
+    "hunting_objs"
+  ],
+  "rewards": [
+    "hunting_rews",
+    "_all_rews"
+  ]
+}

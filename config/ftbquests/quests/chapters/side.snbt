@@ -1,0 +1,107 @@
+{
+	id: "5CE00B6CE7BF1537"
+	group: ""
+	order_index: 1
+	filename: "side"
+	icon: {
+		id: "minecraft:writable_book"
+		count: 1
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			id: "7FAFBECBA1B9CFAF"
+			x: 0.0d
+			y: 0.0d
+			icon: {
+				id: "minecraft:redstone"
+				count: 1
+			}
+			dependencies: [
+				"60062C9DD408EF8C"
+			]
+			tasks: [
+				{
+					id: "265036504E67C6EA"
+					type: "kill"
+					entity: "minecraft:zombie"
+					value: 1
+					entityTypeTag: "calamity:lifestealer"
+				}
+			]
+			rewards: [
+				{
+					id: "2378B173B4B0D2CD"
+					type: "item"
+					item: {
+						id: "minecraft:golden_apple"
+						count: 1
+					}
+					count: 2
+				}
+				{
+					id: "1E1B2511E1931DE4"
+					type: "item"
+					item: {
+						id: "minecraft:emerald"
+						count: 1
+					}
+					count: 16
+				}
+				{
+					id: "3DE800D0E5E630DD"
+					type: "xp"
+					xp: 150
+				}
+			]
+			hide_until_deps_complete: true
+		}
+		{
+			id: "789B3ACBC54E936D"
+			x: 2.0d
+			y: 0.0d
+			icon: {
+				id: "minecraft:bone"
+				count: 1
+			}
+			dependencies: [
+				"2F1B2436A1D7FE4C"
+			]
+			tasks: [
+				{
+					id: "5FC2489420033AA3"
+					type: "kill"
+					entity: "born_in_chaos_v1:dread_hound"
+					value: 3
+				}
+			]
+			rewards: [
+				{
+					id: "5CD4AF058775538F"
+					type: "item"
+					item: {
+						id: "minecraft:arrow"
+						count: 1
+					}
+					count: 32
+				}
+				{
+					id: "11B5B9CA0473C977"
+					type: "item"
+					item: {
+						id: "minecraft:leather"
+						count: 1
+					}
+					count: 6
+				}
+				{
+					id: "2CC0C44EA623F029"
+					type: "xp"
+					xp: 80
+				}
+			]
+			hide_until_deps_complete: true
+		}
+	]
+}

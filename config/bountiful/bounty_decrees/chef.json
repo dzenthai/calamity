@@ -1,0 +1,13 @@
+{
+  "linkedProfessions": [
+    "butcher",
+    "farmer"
+  ],
+  "objectives": [
+    "chef_objs"
+  ],
+  "rewards": [
+    "chef_rews",
+    "_all_rews"
+  ]
+}

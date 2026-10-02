@@ -1,0 +1,80 @@
+{
+  "content": {
+    "fd_rich_soil": {
+      "type": "item",
+      "content": "farmersdelight:rich_soil",
+      "unitWorth": 250,
+      "amount": {
+        "min": 4,
+        "max": 16
+      }
+    },
+    "fc_fertilizer": {
+      "type": "item",
+      "content": "farm_and_charm:fertilizer",
+      "unitWorth": 300,
+      "amount": {
+        "min": 2,
+        "max": 8
+      },
+      "rarity": "UNCOMMON"
+    },
+    "fc_seeds_lettuce": {
+      "type": "item",
+      "content": "farm_and_charm:lettuce_seeds",
+      "unitWorth": 60,
+      "amount": {
+        "min": 4,
+        "max": 12
+      }
+    },
+    "fc_seeds_oat": {
+      "type": "item",
+      "content": "farm_and_charm:oat_seeds",
+      "unitWorth": 60,
+      "amount": {
+        "min": 4,
+        "max": 12
+      }
+    },
+    "fc_seeds_barley": {
+      "type": "item",
+      "content": "farm_and_charm:barley_seeds",
+      "unitWorth": 60,
+      "amount": {
+        "min": 4,
+        "max": 12
+      }
+    },
+    "vin_apple_sapling": {
+      "type": "item",
+      "content": "vinery:apple_tree_sapling",
+      "unitWorth": 800,
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "rarity": "UNCOMMON"
+    },
+    "vin_cherry_sapling": {
+      "type": "item",
+      "content": "vinery:dark_cherry_sapling",
+      "unitWorth": 800,
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "rarity": "UNCOMMON"
+    },
+    "horse_fodder": {
+      "type": "item",
+      "content": "farm_and_charm:horse_fodder",
+      "unitWorth": 400,
+      "amount": {
+        "min": 2,
+        "max": 6
+      },
+      "rarity": "UNCOMMON"
+    }
+  }
+}

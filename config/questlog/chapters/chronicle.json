@@ -1,0 +1,9 @@
+{
+  "name": "Летопись Агарвена",
+  "icon": {
+    "item": "minecraft:book"
+  },
+  "order": 2,
+  "default_chapter": false,
+  "hidden": false
+}

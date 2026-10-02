@@ -1,0 +1,96 @@
+{
+  "content": {
+    "is_common_ink": {
+      "type": "item",
+      "content": "irons_spellbooks:common_ink",
+      "unitWorth": 300,
+      "amount": {
+        "min": 2,
+        "max": 6
+      }
+    },
+    "is_uncommon_ink": {
+      "type": "item",
+      "content": "irons_spellbooks:uncommon_ink",
+      "unitWorth": 700,
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "rarity": "UNCOMMON"
+    },
+    "is_rare_ink": {
+      "type": "item",
+      "content": "irons_spellbooks:rare_ink",
+      "unitWorth": 1600,
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "rarity": "RARE",
+      "repRequired": 5
+    },
+    "is_epic_ink": {
+      "type": "item",
+      "content": "irons_spellbooks:epic_ink",
+      "unitWorth": 4000,
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "rarity": "EPIC",
+      "repRequired": 15
+    },
+    "is_blank_rune": {
+      "type": "item",
+      "content": "irons_spellbooks:blank_rune",
+      "unitWorth": 500,
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "rarity": "UNCOMMON"
+    },
+    "is_oakskin": {
+      "type": "item",
+      "content": "irons_spellbooks:oakskin_elixir",
+      "unitWorth": 900,
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "rarity": "UNCOMMON"
+    },
+    "is_greater_heal": {
+      "type": "item",
+      "content": "irons_spellbooks:greater_healing_potion",
+      "unitWorth": 1400,
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "rarity": "RARE"
+    },
+    "is_evasion": {
+      "type": "item",
+      "content": "irons_spellbooks:evasion_elixir",
+      "unitWorth": 1500,
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "rarity": "RARE"
+    },
+    "is_upgrade_orb": {
+      "type": "item",
+      "content": "irons_spellbooks:upgrade_orb",
+      "unitWorth": 6000,
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "rarity": "LEGENDARY",
+      "repRequired": 25
+    }
+  }
+}

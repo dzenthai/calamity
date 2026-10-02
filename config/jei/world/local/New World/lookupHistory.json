@@ -1,0 +1,10 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"structurize:sceptergold"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecolonies:blockhuttownhall"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"spell_engine:spell_scroll","components":"{\"minecraft:item_name\":\u0027{\"translate\":\"item.archers.spell_scroll/archer\"}\u0027,\"minecraft:rarity\":\"uncommon\",\"spell_engine:item_model\":\"archers:item/spell_scroll/archer\",\"spell_engine:spell_container\":{spell_ids:[\"archers:power_shot\"]}}"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"archers:archers_workbench"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"aquaculture:muskellunge"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"naturalist:snail_shell","components":"{\"minecraft:custom_data\":{Color:14b}}"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"naturalist:snail_shell"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

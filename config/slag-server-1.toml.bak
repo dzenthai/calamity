@@ -1,0 +1,16 @@
+#Max Width for the Crucible
+# Default: 4
+# Range: 1 ~ 9
+CrucibleMaxWidth = 4
+#Max Height for the Crucible
+# Default: 6
+# Range: 1 ~ 9
+CrucibleMaxHeight = 6
+#Drain Speed in Millibuckets
+# Default: 25
+# Range: 1 ~ 10000
+DrainMbSpeed = 25
+#Whether to insert Fluid Items into the Crucible
+InsertFluidIntoCrucible = true
+#Whether to extract Fluid from Drain to Item
+ExtractFluidFromDrainToItem = true

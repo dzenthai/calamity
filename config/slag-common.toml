@@ -1,0 +1,18 @@
+#CapacityPerCrucible
+# Default: 1000
+# Range: 10 ~ 10000
+CapacityPerCrucible = 1000
+#Disables the paper template crafting recipes for parts that can be cast in the smeltery once their material reaches CastOnlyTier (requires /reload)
+CastOnlyParts = false
+#Minimum material tier affected by CastOnlyParts
+# Default: 3.5
+# Range: 0.0 ~ 100.0
+CastOnlyTier = 3.5
+#Allows imprinting molds that are made by casting, such as the cast iron mold, by right-clicking them with items in the inventory while not in creative mode
+CastMoldImprinting = false
+#Lets Create's spout pour into the casting table
+SpoutFillsTable = true
+#Lets Create's spout pour into the casting basin
+SpoutFillsBasin = false
+#Whether to generate recycling recipes from crafting, cooking, stonecutting and smithing recipes, for items that don't have a melting recipe yet
+RecyclingRecipes = true

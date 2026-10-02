@@ -1,0 +1,30 @@
+#Max Width for the Crucible
+# Default: 8
+# Range: 1 ~ 48
+CrucibleMaxWidth = 4
+#Max Height for the Crucible
+# Default: 12
+# Range: 1 ~ 48
+CrucibleMaxHeight = 6
+#Drain Speed in Millibuckets
+# Default: 25
+# Range: 1 ~ 10000
+DrainMbSpeed = 25
+#Whether to insert Fluid Items into the Crucible
+InsertFluidIntoCrucible = true
+#Whether to extract Fluid from Drain to Item
+ExtractFluidFromDrainToItem = true
+#How many Crucible block updates (shape, light, sync, placing) each dimension applies per tick, large Crucibles spread the rest over the next ticks. Raise it on strong machines for faster updates, lower it on weak machines for less stutter
+# Default: 2048
+# Range: 64 ~ 1048576
+CrucibleUpdatesPerTick = 2048
+#How close in blocks a player must be for a Crucible to update its light, farther Crucibles catch up once a player comes near
+# Default: 64
+# Range: 8 ~ 1024
+CrucibleLightRange = 64
+#How many blocks below the Drain it can pour into a Fluid Container
+# Default: 16
+# Range: 1 ~ 64
+DrainRange = 16
+#Mod priorities for tag recipe results as modid=priority, the highest priority item in the tag is used, unlisted mods are 0 and negative values are a last resort
+TagResultPriorities = ["create=9500", "unify=9000", "ad_astra=5000", "oritech=-90", "immersiveengineering=-100"]

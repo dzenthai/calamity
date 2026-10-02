@@ -1,0 +1,824 @@
+{
+	id: "5ACE6B9A9A1E3CC2"
+	group: ""
+	order_index: 0
+	filename: "prologue"
+	icon: {
+		id: "minecraft:soul_lantern"
+		count: 1
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			id: "4552D4758B57E02A"
+			x: 0.0d
+			y: 0.75d
+			icon: {
+				id: "minecraft:candle"
+				count: 1
+			}
+			dependencies: [ ]
+			tasks: [
+				{
+					id: "7A3850D98D4104F8"
+					type: "advancement"
+					advancement: "calamity:quest/searched_body"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "57291069A42C8DFC"
+					type: "item"
+					item: {
+						id: "minecraft:written_book"
+						count: 1
+						components: {
+							"minecraft:written_book_content": {
+								title: "Письмо без имени"
+								author: "Кайрен"
+								resolved: true
+								pages: [
+									"{\"text\": \"Если ты читаешь это — ритуал удался, а я, скорее всего, уже нет.\\n\\nПрости, что вырвал тебя оттуда, где ты был. Здесь тебе понадобятся огонь, сталь и упрямство.\"}"
+									"{\"text\": \"Ты не первый, кого мы пытались разбудить. Ты первый, кто проснулся.\\n\\nНочью держись стен. Они придут на твой свет — ты для них как маяк.\"}"
+									"{\"text\": \"Найди Аберфорта у Сумеречных врат. Он объяснит больше, чем успел я.\\n\\nИ что бы ни случилось — не верь огню, кото\"}"
+								]
+							}
+						}
+					}
+					count: 1
+					auto: "enabled"
+				}
+				{
+					id: "46C56EF9D4A6895C"
+					type: "item"
+					item: {
+						id: "minecraft:iron_sword"
+						count: 1
+						components: {
+							"minecraft:custom_name": "{\"text\": \"Клинок Кайрена\", \"color\": \"gold\", \"italic\": false}"
+							"minecraft:lore": [
+								"{\"text\": \"Клинок Хранителя Света.\", \"color\": \"dark_gray\", \"italic\": true}"
+								"{\"text\": \"Рукоять стёрта о ладонь, лезвие — нет.\", \"color\": \"dark_gray\", \"italic\": true}"
+								"{\"text\": \"Им ни разу не убили человека.\", \"color\": \"dark_gray\", \"italic\": true}"
+							]
+							"minecraft:damage": 160
+						}
+					}
+					count: 1
+					auto: "enabled"
+				}
+				{
+					id: "7EA39EC3B429BBA2"
+					type: "item"
+					item: {
+						id: "minecraft:bread"
+						count: 1
+					}
+					count: 6
+					auto: "enabled"
+				}
+				{
+					id: "2FEEE6AA4D0F008D"
+					type: "item"
+					item: {
+						id: "minecraft:torch"
+						count: 1
+					}
+					count: 8
+					auto: "enabled"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+		}
+		{
+			id: "2F1B2436A1D7FE4C"
+			x: 2.0d
+			y: 0.0d
+			icon: {
+				id: "minecraft:red_bed"
+				count: 1
+			}
+			dependencies: [
+				"4552D4758B57E02A"
+			]
+			tasks: [
+				{
+					id: "593E6DA344E91AD5"
+					type: "item"
+					item: {
+						id: "minecraft:crafting_table"
+						count: 1
+					}
+					count: 1
+				}
+				{
+					id: "7D82E811167AC243"
+					type: "kill"
+					entity: "minecraft:zombie"
+					value: 8
+					entityTypeTag: "minecraft:undead"
+				}
+				{
+					id: "02A260972337CA04"
+					type: "stat"
+					stat: "minecraft:sleep_in_bed"
+					value: 1
+				}
+			]
+			rewards: [
+				{
+					id: "7F980F0F43A3C19E"
+					type: "item"
+					item: {
+						id: "minecraft:shield"
+						count: 1
+					}
+					count: 1
+				}
+				{
+					id: "08DD1C12B5EE9F30"
+					type: "item"
+					item: {
+						id: "minecraft:cooked_beef"
+						count: 1
+					}
+					count: 8
+				}
+				{
+					id: "791929BBFAEDE505"
+					type: "xp"
+					xp: 60
+				}
+			]
+		}
+		{
+			id: "059CAB097B36FD72"
+			x: 2.0d
+			y: -1.5d
+			icon: {
+				id: "minecraft:campfire"
+				count: 1
+			}
+			dependencies: [
+				"2F1B2436A1D7FE4C"
+			]
+			tasks: [
+				{
+					id: "250FA73477EC8B5A"
+					type: "item"
+					item: {
+						id: "minecraft:campfire"
+						count: 1
+					}
+					count: 1
+				}
+				{
+					id: "62A15AFCA8713378"
+					type: "item"
+					item: {
+						id: "legendarysurvivaloverhaul:sewing_table"
+						count: 1
+					}
+					count: 1
+				}
+			]
+			rewards: [
+				{
+					id: "57113897E334AD9F"
+					type: "item"
+					item: {
+						id: "legendarysurvivaloverhaul:warm_string"
+						count: 1
+					}
+					count: 6
+				}
+				{
+					id: "5ED585342D649898"
+					type: "item"
+					item: {
+						id: "minecraft:leather"
+						count: 1
+					}
+					count: 8
+				}
+				{
+					id: "79F17F11209393CE"
+					type: "xp"
+					xp: 40
+				}
+			]
+		}
+		{
+			id: "1C4BCB5D8149C555"
+			x: 2.0d
+			y: -3.0d
+			icon: {
+				id: "farmersdelight:cooking_pot"
+				count: 1
+			}
+			dependencies: [
+				"059CAB097B36FD72"
+			]
+			tasks: [
+				{
+					id: "0AA79C6BB723936F"
+					type: "advancement"
+					advancement: "calamity:quest/planted"
+					criterion: ""
+				}
+				{
+					id: "40451BB6236F5392"
+					type: "advancement"
+					advancement: "calamity:quest/cooking_station"
+					criterion: ""
+				}
+				{
+					id: "0443D04EE0E67322"
+					type: "advancement"
+					advancement: "calamity:quest/ate_dish"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "6E13723F4DDBE77D"
+					type: "item"
+					item: {
+						id: "minecraft:bone_meal"
+						count: 1
+					}
+					count: 16
+				}
+				{
+					id: "17F27B20E46F5144"
+					type: "item"
+					item: {
+						id: "minecraft:bread"
+						count: 1
+					}
+					count: 8
+				}
+				{
+					id: "72D867A1757B76B4"
+					type: "xp"
+					xp: 50
+				}
+			]
+		}
+		{
+			id: "60062C9DD408EF8C"
+			x: 4.0d
+			y: 0.0d
+			icon: {
+				id: "bountiful:bountyboard"
+				count: 1
+			}
+			dependencies: [
+				"2F1B2436A1D7FE4C"
+			]
+			tasks: [
+				{
+					id: "492C6374698816CB"
+					type: "structure"
+					structure: "#calamity:villages"
+				}
+				{
+					id: "1ADD2CDF1D2F17AB"
+					type: "observation"
+					timer: 20
+					observation_type: "block"
+					to_observe: "bountiful:bountyboard"
+				}
+				{
+					id: "1F5C97C104D7DEC9"
+					type: "advancement"
+					advancement: "bountiful:bountiful/bounty_complete"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "519474E8406D3981"
+					type: "item"
+					item: {
+						id: "minecraft:emerald"
+						count: 1
+					}
+					count: 8
+				}
+				{
+					id: "704BEABC5406D906"
+					type: "xp"
+					xp: 50
+				}
+			]
+		}
+		{
+			id: "37A95B2629DA71EC"
+			x: 6.0d
+			y: 0.0d
+			icon: {
+				id: "waystones:waystone"
+				count: 1
+			}
+			dependencies: [
+				"60062C9DD408EF8C"
+			]
+			tasks: [
+				{
+					id: "78897E085D65252B"
+					type: "observation"
+					timer: 20
+					observation_type: "block_tag"
+					to_observe: "calamity:waystones"
+				}
+			]
+			rewards: [
+				{
+					id: "26B7DB401997145D"
+					type: "item"
+					item: {
+						id: "minecraft:ender_pearl"
+						count: 1
+					}
+					count: 2
+				}
+				{
+					id: "03BEDFB2D6F0CCEB"
+					type: "xp"
+					xp: 40
+				}
+			]
+		}
+		{
+			id: "200CF1868263C5FE"
+			x: 2.0d
+			y: 1.5d
+			icon: {
+				id: "minecraft:iron_chestplate"
+				count: 1
+			}
+			dependencies: [
+				"2F1B2436A1D7FE4C"
+			]
+			tasks: [
+				{
+					id: "1456E11E7AD18686"
+					type: "item"
+					item: {
+						id: "minecraft:iron_ingot"
+						count: 1
+					}
+					count: 12
+				}
+				{
+					id: "264AD35D6D4748FA"
+					type: "item"
+					item: {
+						id: "minecraft:shield"
+						count: 1
+					}
+					count: 1
+				}
+			]
+			rewards: [
+				{
+					id: "285B2685E70AB8D9"
+					type: "item"
+					item: {
+						id: "minecraft:iron_ingot"
+						count: 1
+					}
+					count: 6
+				}
+				{
+					id: "128DB6E566FBE90C"
+					type: "xp"
+					xp: 60
+				}
+			]
+		}
+		{
+			id: "05EFFA7701C31D75"
+			x: 6.0d
+			y: -3.0d
+			icon: {
+				id: "minecraft:brush"
+				count: 1
+			}
+			dependencies: [
+				"37A95B2629DA71EC"
+			]
+			tasks: [
+				{
+					id: "4E9CAD3B6EB972AC"
+					type: "structure"
+					structure: "#calamity:ancient_ruins"
+				}
+			]
+			rewards: [
+				{
+					id: "6A8A9BD98B4C4AB4"
+					type: "item"
+					item: {
+						id: "minecraft:written_book"
+						count: 1
+						components: {
+							"minecraft:written_book_content": {
+								title: "Обрывок хроники"
+								author: "неизвестен"
+								resolved: true
+								pages: [
+									"{\"text\": \"...и войне не было ни начала, ни конца. Короли умирали, а знамёна переходили к сыновьям, как долги.\\n\\nНа девятый год реки у Брода стали красными, и никто уже не помнил, за что.\"}"
+									"{\"text\": \"Тогда Хранитель взглянул на поле и сказал:\\n\\n§o«Эта земля запятнана кровью. Agarwaen».§r\\n\\nТак её и зовут с тех пор. Имени Хранителя хроника не сохранила.\"}"
+									"{\"text\": \"§8[дальше страницы выжжены]\"}"
+								]
+							}
+						}
+					}
+					count: 1
+					auto: "enabled"
+				}
+				{
+					id: "52B732850B8D82E7"
+					type: "xp"
+					xp: 50
+				}
+			]
+		}
+		{
+			id: "4947376BF48AD2EE"
+			x: 4.0d
+			y: 1.5d
+			icon: {
+				id: "minecraft:wither_skeleton_skull"
+				count: 1
+			}
+			dependencies: [
+				"200CF1868263C5FE"
+			]
+			tasks: [
+				{
+					id: "58007C11DAF28866"
+					type: "kill"
+					entity: "minecraft:zombie"
+					value: 1
+					entityTypeTag: "calamity:chaos_spawn"
+				}
+			]
+			rewards: [
+				{
+					id: "26F24988624E13D9"
+					type: "item"
+					item: {
+						id: "minecraft:golden_apple"
+						count: 1
+					}
+					count: 1
+				}
+				{
+					id: "7861CE25858B89E0"
+					type: "xp"
+					xp: 80
+				}
+			]
+		}
+		{
+			id: "6D134780C902731B"
+			x: 6.0d
+			y: 1.5d
+			icon: {
+				id: "minecraft:enchanting_table"
+				count: 1
+			}
+			dependencies: [
+				"4947376BF48AD2EE"
+			]
+			tasks: [
+				{
+					id: "2881E99CA1D5C229"
+					type: "item"
+					item: {
+						id: "minecraft:iron_helmet"
+						count: 1
+					}
+					count: 1
+				}
+				{
+					id: "603DBD4C367389E7"
+					type: "item"
+					item: {
+						id: "minecraft:iron_chestplate"
+						count: 1
+					}
+					count: 1
+				}
+				{
+					id: "432320C2288ADD01"
+					type: "item"
+					item: {
+						id: "minecraft:iron_leggings"
+						count: 1
+					}
+					count: 1
+				}
+				{
+					id: "3CE119FB2E70125A"
+					type: "item"
+					item: {
+						id: "minecraft:iron_boots"
+						count: 1
+					}
+					count: 1
+				}
+				{
+					id: "7FA4C720C5CF9DCE"
+					type: "advancement"
+					advancement: "minecraft:story/enchant_item"
+					criterion: ""
+				}
+				{
+					id: "6346C0049D725E3C"
+					type: "item"
+					item: {
+						id: "legendarysurvivaloverhaul:bandage"
+						count: 1
+					}
+					count: 4
+				}
+			]
+			rewards: [
+				{
+					id: "42B56134EE4BFF09"
+					type: "item"
+					item: {
+						id: "minecraft:golden_apple"
+						count: 1
+					}
+					count: 2
+				}
+				{
+					id: "72734DA675208BC8"
+					type: "item"
+					item: {
+						id: "minecraft:experience_bottle"
+						count: 1
+					}
+					count: 8
+				}
+				{
+					id: "1919187304352EAE"
+					type: "xp"
+					xp: 80
+				}
+			]
+		}
+		{
+			id: "4E582FE1458ACD60"
+			x: 4.0d
+			y: -3.0d
+			icon: {
+				id: "minecraft:saddle"
+				count: 1
+			}
+			dependencies: [
+				"60062C9DD408EF8C"
+			]
+			tasks: [
+				{
+					id: "139E65D29EA3D861"
+					type: "advancement"
+					advancement: "icys-better-horses:hold_your_horses"
+					criterion: ""
+				}
+				{
+					id: "164DFD4ADD4B3468"
+					type: "advancement"
+					advancement: "icys-better-horses:stable_reading"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "46711FF9C28EC984"
+					type: "item"
+					item: {
+						id: "minecraft:saddle"
+						count: 1
+					}
+					count: 1
+				}
+				{
+					id: "4489EB647AA376F1"
+					type: "item"
+					item: {
+						id: "minecraft:golden_carrot"
+						count: 1
+					}
+					count: 8
+				}
+				{
+					id: "7F14AA97F52813CC"
+					type: "xp"
+					xp: 40
+				}
+			]
+			optional: true
+		}
+		{
+			id: "2898A85BD426D704"
+			x: 8.007653061224488d
+			y: 0.7602040816326436d
+			icon: {
+				id: "apotheosis:gem"
+				count: 1
+			}
+			dependencies: [
+				"6D134780C902731B"
+				"37A95B2629DA71EC"
+			]
+			tasks: [
+				{
+					id: "31B47620007F5172"
+					type: "advancement"
+					advancement: "apotheosis:progression/frontier"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "32131868A4539EF7"
+					type: "item"
+					item: {
+						id: "apotheosis:gem_dust"
+						count: 1
+					}
+					count: 8
+				}
+				{
+					id: "2D937880F7DF4A12"
+					type: "xp"
+					xp: 80
+				}
+			]
+		}
+		{
+			id: "16EE9B426E4C52EF"
+			x: 10.0d
+			y: 0.75d
+			icon: {
+				id: "minecraft:oak_sapling"
+				count: 1
+			}
+			dependencies: [
+				"2898A85BD426D704"
+			]
+			tasks: [
+				{
+					id: "655A7CE4BA36458B"
+					type: "dimension"
+					dimension: "twilightforest:twilight_forest"
+				}
+			]
+			rewards: [
+				{
+					id: "03A4AC3FCB80DE79"
+					type: "xp"
+					xp: 80
+				}
+			]
+		}
+		{
+			id: "25506BAF8DE572F7"
+			x: 12.0d
+			y: 0.75d
+			icon: {
+				id: "twilightforest:naga_scale"
+				count: 1
+			}
+			dependencies: [
+				"16EE9B426E4C52EF"
+			]
+			tasks: [
+				{
+					id: "643BD668210A73ED"
+					type: "kill"
+					entity: "twilightforest:naga"
+					value: 1
+				}
+			]
+			rewards: [
+				{
+					id: "0111EB98884396BE"
+					type: "item"
+					item: {
+						id: "minecraft:golden_apple"
+						count: 1
+					}
+					count: 2
+				}
+				{
+					id: "68D662BC79EDB134"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "5E435569A94868B2"
+					type: "command"
+					command: "/easy_npc preset import_new data calamity:easy_npc/preset/humanoid/aberfort.npc.snbt ~3 ~ ~"
+					permission_level: 2
+					silent: true
+					auto: "invisible"
+				}
+				{
+					id: "6AC93FE56676C45F"
+					type: "command"
+					command: "/setblock ~3 ~ ~2 minecraft:campfire keep"
+					permission_level: 2
+					silent: true
+					auto: "invisible"
+				}
+				{
+					id: "4A30B7ACBCC1BA9D"
+					type: "command"
+					command: "/calamity_story aberfort {p}"
+					permission_level: 2
+					silent: true
+					auto: "invisible"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+		}
+		{
+			id: "710B9F5A99F4499B"
+			x: 14.5d
+			y: 0.75d
+			icon: {
+				id: "minecraft:soul_lantern"
+				count: 1
+			}
+			dependencies: [
+				"25506BAF8DE572F7"
+			]
+			tasks: [
+				{
+					id: "768E1688CAD6C5E4"
+					type: "advancement"
+					advancement: "calamity:quest/met_aberfort"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "677D2B770C7898D1"
+					type: "item"
+					item: {
+						id: "minecraft:written_book"
+						count: 1
+						components: {
+							"minecraft:written_book_content": {
+								title: "Записка у врат"
+								author: "А. Э."
+								resolved: true
+								pages: [
+									"{\"text\": \"Кайрен был моим последним учеником. Если ты здесь — значит, он довёл тебя дальше, чем дошёл сам.\\n\\nЗабери эту записку. Возвращайся к вратам, когда будешь готов. Я буду ждать.\"}"
+									"{\"text\": \"§8На обороте, другим почерком, очень мелко:\\n\\n§o«Ты ведь не дочитал последнюю строку? Хорошо.»\"}"
+								]
+							}
+						}
+					}
+					count: 1
+					auto: "enabled"
+				}
+				{
+					id: "092B0E31F859617F"
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "3E0E2EC3004C8C5E"
+					type: "command"
+					command: "/tag @s add calamity_stage_1"
+					permission_level: 2
+					silent: true
+					auto: "invisible"
+				}
+				{
+					id: "198C54C8A72BC7D7"
+					type: "command"
+					command: "/title @s title {\"text\":\"Пепел Агарвена\",\"color\":\"gold\"}"
+					permission_level: 2
+					silent: true
+					auto: "invisible"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			hide_until_deps_complete: true
+		}
+	]
+}

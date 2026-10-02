@@ -1,0 +1,80 @@
+{
+  "content": {
+    "is_arcane_essence": {
+      "type": "item",
+      "content": "irons_spellbooks:arcane_essence",
+      "unitWorth": 350,
+      "amount": {
+        "min": 2,
+        "max": 8
+      },
+      "rarity": "UNCOMMON"
+    },
+    "is_cinder_essence": {
+      "type": "item",
+      "content": "irons_spellbooks:cinder_essence",
+      "unitWorth": 900,
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "rarity": "RARE",
+      "repRequired": 5
+    },
+    "is_frozen_bone": {
+      "type": "item",
+      "content": "irons_spellbooks:frozen_bone",
+      "unitWorth": 600,
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "rarity": "UNCOMMON",
+      "biomes": [
+        "#c:is_snowy"
+      ]
+    },
+    "is_blood_vial": {
+      "type": "item",
+      "content": "irons_spellbooks:blood_vial",
+      "unitWorth": 800,
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "rarity": "RARE"
+    },
+    "is_magic_cloth": {
+      "type": "item",
+      "content": "irons_spellbooks:magic_cloth",
+      "unitWorth": 700,
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "rarity": "UNCOMMON"
+    },
+    "is_divine_pearl": {
+      "type": "item",
+      "content": "irons_spellbooks:divine_pearl",
+      "unitWorth": 3000,
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "rarity": "EPIC",
+      "repRequired": 15
+    },
+    "brew_potions": {
+      "type": "criteria",
+      "content": "minecraft:brewed_potion",
+      "unitWorth": 300,
+      "amount": {
+        "min": 2,
+        "max": 8
+      },
+      "name": "Brew potions for the sick",
+      "conditions": {}
+    }
+  }
+}

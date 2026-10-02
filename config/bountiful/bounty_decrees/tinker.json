@@ -1,0 +1,13 @@
+{
+  "linkedProfessions": [
+    "toolsmith"
+  ],
+  "objectives": [
+    "tinker_objs",
+    "_metal_objs"
+  ],
+  "rewards": [
+    "tinker_rews",
+    "_all_rews"
+  ]
+}

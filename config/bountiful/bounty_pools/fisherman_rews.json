@@ -1,0 +1,43 @@
+{
+  "content": {
+    "aq_worms": {
+      "type": "item",
+      "content": "aquaculture:worm",
+      "unitWorth": 40,
+      "amount": {
+        "min": 4,
+        "max": 16
+      }
+    },
+    "aq_sushi": {
+      "type": "item",
+      "content": "aquaculture:sushi",
+      "unitWorth": 220,
+      "amount": {
+        "min": 2,
+        "max": 8
+      }
+    },
+    "aq_fillet_knife": {
+      "type": "item",
+      "content": "aquaculture:iron_fillet_knife",
+      "unitWorth": 1000,
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "rarity": "UNCOMMON"
+    },
+    "aq_bounty": {
+      "type": "item",
+      "content": "aquaculture:neptunes_bounty",
+      "unitWorth": 5000,
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "rarity": "EPIC",
+      "repRequired": 15
+    }
+  }
+}

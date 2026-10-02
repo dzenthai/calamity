@@ -1,0 +1,14 @@
+{
+  "linkedProfessions": [
+    "mason"
+  ],
+  "objectives": [
+    "mason_objs",
+    "carpenter_objs"
+  ],
+  "rewards": [
+    "mason_rews",
+    "carpenter_rews",
+    "_all_rews"
+  ]
+}

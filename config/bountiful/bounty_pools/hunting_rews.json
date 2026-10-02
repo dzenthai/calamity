@@ -1,0 +1,206 @@
+{
+  "content": {
+    "arrows": {
+      "type": "item",
+      "content": "minecraft:arrow",
+      "unitWorth": 90,
+      "amount": {
+        "min": 8,
+        "max": 32
+      }
+    },
+    "spectral": {
+      "type": "item",
+      "content": "minecraft:spectral_arrow",
+      "unitWorth": 250,
+      "amount": {
+        "min": 4,
+        "max": 16
+      },
+      "rarity": "UNCOMMON"
+    },
+    "cooked_beef": {
+      "type": "item",
+      "content": "minecraft:cooked_beef",
+      "unitWorth": 180,
+      "amount": {
+        "min": 4,
+        "max": 12
+      }
+    },
+    "heal_potion": {
+      "type": "item",
+      "content": "minecraft:potion",
+      "unitWorth": 600,
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "components": {
+        "minecraft:potion_contents": {
+          "potion": "minecraft:healing"
+        }
+      }
+    },
+    "regen_potion": {
+      "type": "item",
+      "content": "minecraft:potion",
+      "unitWorth": 1100,
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "rarity": "UNCOMMON",
+      "components": {
+        "minecraft:potion_contents": {
+          "potion": "minecraft:regeneration"
+        }
+      }
+    },
+    "strength_potion": {
+      "type": "item",
+      "content": "minecraft:potion",
+      "unitWorth": 1300,
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "rarity": "RARE",
+      "components": {
+        "minecraft:potion_contents": {
+          "potion": "minecraft:strength"
+        }
+      }
+    },
+    "golden_apple": {
+      "type": "item",
+      "content": "minecraft:golden_apple",
+      "unitWorth": 2200,
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "rarity": "UNCOMMON"
+    },
+    "xp_bottle": {
+      "type": "item",
+      "content": "minecraft:experience_bottle",
+      "unitWorth": 300,
+      "amount": {
+        "min": 2,
+        "max": 10
+      },
+      "rarity": "UNCOMMON"
+    },
+    "xp_levels_3": {
+      "type": "command",
+      "content": "xp add @a[name=\"%PLAYER_NAME%\",limit=1] 3 levels",
+      "unitWorth": 2100,
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "rarity": "UNCOMMON",
+      "name": "Hunter's Insight (+3 levels)"
+    },
+    "xp_levels_6": {
+      "type": "command",
+      "content": "xp add @a[name=\"%PLAYER_NAME%\",limit=1] 6 levels",
+      "unitWorth": 4200,
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "rarity": "RARE",
+      "repRequired": 5,
+      "name": "Hunter's Insight (+6 levels)"
+    },
+    "warp_scroll": {
+      "type": "item",
+      "content": "waystones:warp_scroll",
+      "unitWorth": 900,
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "rarity": "UNCOMMON"
+    },
+    "return_scroll": {
+      "type": "item",
+      "content": "waystones:return_scroll",
+      "unitWorth": 700,
+      "amount": {
+        "min": 1,
+        "max": 2
+      }
+    },
+    "ender_pearl": {
+      "type": "item",
+      "content": "minecraft:ender_pearl",
+      "unitWorth": 1800,
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "rarity": "RARE"
+    },
+    "diamond": {
+      "type": "item",
+      "content": "minecraft:diamond",
+      "unitWorth": 3000,
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "rarity": "RARE",
+      "repRequired": 5
+    },
+    "cache_dungeon": {
+      "type": "command",
+      "content": "loot give @a[name=\"%PLAYER_NAME%\",limit=1] loot minecraft:chests/simple_dungeon",
+      "unitWorth": 2500,
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "rarity": "RARE",
+      "name": "Hunter's Cache (dungeon loot)"
+    },
+    "cache_outpost": {
+      "type": "command",
+      "content": "loot give @a[name=\"%PLAYER_NAME%\",limit=1] loot minecraft:chests/pillager_outpost",
+      "unitWorth": 3000,
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "rarity": "RARE",
+      "repRequired": 5,
+      "name": "Warband Spoils (outpost loot)"
+    },
+    "cache_citadel": {
+      "type": "command",
+      "content": "loot give @a[name=\"%PLAYER_NAME%\",limit=1] loot minecraft:chests/stronghold_corridor",
+      "unitWorth": 6000,
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "rarity": "EPIC",
+      "repRequired": 15,
+      "name": "Warden's Tithe (stronghold loot)"
+    },
+    "cache_ancient": {
+      "type": "command",
+      "content": "loot give @a[name=\"%PLAYER_NAME%\",limit=1] loot minecraft:chests/ancient_city",
+      "unitWorth": 12000,
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "rarity": "LEGENDARY",
+      "repRequired": 25,
+      "name": "Relic of the Deep (ancient city loot)"
+    }
+  }
+}

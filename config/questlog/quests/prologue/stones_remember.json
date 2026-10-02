@@ -1,0 +1,54 @@
+{
+  "chapter": "questlog:prologue",
+  "sort_order": 4,
+  "title": "Камни помнят шаги",
+  "icon": {
+    "item": "waystones:waystone"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:prologue/stranger_ash",
+      "name": "Предыдущая запись"
+    }
+  ],
+  "description": "Вдоль старых дорог стоят резные камни. Местные обходят их стороной, но не трогают — «на всякий случай».\n\n§o«Наш орден ставил их, чтобы никто не терялся во тьме, — пишет Илвен. — Теперь по ним ходят только мёртвые и я.»§r\n\nНайди путевой камень и коснись его. Он запомнит тебя — и сможет вернуть сюда.",
+  "description_completed": "Камень тёплый под ладонью. Как будто узнал.",
+  "objectives": [
+    {
+      "type": "questlog:or",
+      "name": "Коснуться путевого камня",
+      "objectives": [
+        {
+          "type": "questlog:block_interact",
+          "block": "#waystones:waystones",
+          "required_amount": 1
+        },
+        {
+          "type": "questlog:item_obtain",
+          "item": "waystones:waystone",
+          "required_amount": 1
+        },
+        {
+          "type": "questlog:item_craft",
+          "item": "waystones:waystone",
+          "required_amount": 1
+        }
+      ],
+      "icon": {
+        "item": "waystones:waystone"
+      }
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "item": "minecraft:ender_pearl",
+      "count": 2
+    },
+    {
+      "type": "questlog:experience",
+      "experience": 40
+    }
+  ]
+}

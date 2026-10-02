@@ -1,0 +1,8 @@
+[
+  {"version":2},
+  {"ingredient":{"id":"minecraft:mutton"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"vinery:taiga_grapes_white"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"recipe":"born_in_chaos_v1:dark_stained_glass_k","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
+  {"ingredient":{"id":"minecraft:calcite"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:lantern"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

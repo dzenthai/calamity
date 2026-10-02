@@ -1,0 +1,5 @@
+{
+  "IMPORTANT": "Leave whitelisted_mobs empty to allow all mobs except blacklist. Only add IDs if you want strict whitelist mode.",
+  "EXAMPLE": "minecraft:zombie, minecraft:skeleton, minecraft:creeper",
+  "whitelisted_mobs": []
+}

@@ -1,0 +1,23 @@
+{
+  "chapter": "questlog:chronicle",
+  "toast_on_complete": false,
+  "sort_order": 2,
+  "title": "Хранители Света",
+  "icon": {
+    "item": "minecraft:lantern"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:prologue/stones_remember",
+      "name": "Предыдущая запись"
+    }
+  ],
+  "description": "Орден, чей знак — солнце. Они ставили путевые камни, чтобы никто не терялся во тьме, и хранили что-то, о чём в деревнях говорят только шёпотом: «свет, что упал первым».\n\n§o«Нас было много», — пишет Илвен. И больше ничего не объясняет.",
+  "objectives": [
+    {
+      "type": "questlog:read",
+      "name": "Прочитать запись"
+    }
+  ]
+}

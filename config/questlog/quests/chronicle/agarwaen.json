@@ -1,0 +1,23 @@
+{
+  "chapter": "questlog:chronicle",
+  "toast_on_complete": false,
+  "sort_order": 3,
+  "title": "Agarwaen",
+  "icon": {
+    "item": "minecraft:red_dye"
+  },
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:prologue/name_in_grief",
+      "name": "Предыдущая запись"
+    }
+  ],
+  "description": "Земля, которую назвали по её ранам.\n\nВойна, давшая ей имя, шла так долго, что короли забыли, с чего она началась. Хроника говорит, что имя дал один из Хранителей Света, взглянув на поле после битвы.\n\nЕго собственного имени хроника не сохранила. Или кто-то позаботился, чтобы не сохранила.",
+  "objectives": [
+    {
+      "type": "questlog:read",
+      "name": "Прочитать запись"
+    }
+  ]
+}

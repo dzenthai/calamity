@@ -1,0 +1,4 @@
+#CapacityPerCrucible
+# Default: 1000
+# Range: 10 ~ 10000
+CapacityPerCrucible = 1000
