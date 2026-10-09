@@ -1,0 +1,13 @@
+name = "FDLib"
+filename = "fdlib-1.0.8-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/LcmGQfK2/versions/bZKs2lFt/fdlib-1.0.8-1.21.1.jar"
+hash-format = "sha512"
+hash = "ec88de96aaa9d916d45144cccd2b2d1c3c11ccccbc8b7aa59172c28e1a6cfb72fca399a10434e424a17ce14d1c675f67268e174a714363a0bf1f8965fdf62b34"
+
+[update]
+[update.modrinth]
+mod-id = "LcmGQfK2"
+version = "bZKs2lFt"

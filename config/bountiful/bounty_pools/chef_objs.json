@@ -1,71 +1,71 @@
 {
   "content": {
-    "fd_beef_stew": {
+    "fc_potato_soup": {
       "type": "item",
-      "content": "farmersdelight:beef_stew",
+      "content": "farm_and_charm:potato_soup",
       "unitWorth": 380,
       "amount": {
         "min": 1,
         "max": 4
       }
     },
-    "fd_chicken_soup": {
+    "fc_barley_soup": {
       "type": "item",
-      "content": "farmersdelight:chicken_soup",
+      "content": "farm_and_charm:barley_soup",
       "unitWorth": 380,
       "amount": {
         "min": 1,
         "max": 4
       }
     },
-    "fd_veg_soup": {
+    "fc_tomato_soup": {
       "type": "item",
-      "content": "farmersdelight:vegetable_soup",
+      "content": "farm_and_charm:simple_tomato_soup",
       "unitWorth": 360,
       "amount": {
         "min": 1,
         "max": 4
       }
     },
-    "fd_fish_stew": {
+    "cl_salmon_wine": {
       "type": "item",
-      "content": "farmersdelight:fish_stew",
+      "content": "candlelight:salmon_on_white_wine",
       "unitWorth": 380,
       "amount": {
         "min": 1,
         "max": 4
       }
     },
-    "fd_fried_rice": {
+    "fc_onion_pasta": {
       "type": "item",
-      "content": "farmersdelight:fried_rice",
+      "content": "farm_and_charm:pasta_with_onion_sauce",
       "unitWorth": 360,
       "amount": {
         "min": 1,
         "max": 4
       }
     },
-    "fd_dumplings": {
+    "br_dumplings": {
       "type": "item",
-      "content": "farmersdelight:dumplings",
+      "content": "brewery:dumplings",
       "unitWorth": 300,
       "amount": {
         "min": 2,
         "max": 6
       }
     },
-    "fd_cabbage_rolls": {
+    "md_cheese_sausage": {
       "type": "item",
-      "content": "farmersdelight:cabbage_rolls",
+      "content": "meadow:sausage_with_cheese",
       "unitWorth": 300,
       "amount": {
         "min": 2,
         "max": 6
       }
     },
-    "fd_pasta_meatballs": {
+    "cl_pasta_mozzarella": {
       "type": "item",
-      "content": "farmersdelight:pasta_with_meatballs",
+      "content": "candlelight:pasta_with_mozzarella",
       "unitWorth": 500,
       "amount": {
         "min": 1,
@@ -73,9 +73,9 @@
       },
       "rarity": "UNCOMMON"
     },
-    "fd_steak_potatoes": {
+    "cl_beef_wine": {
       "type": "item",
-      "content": "farmersdelight:steak_and_potatoes",
+      "content": "candlelight:beef_with_mushroom_in_wine_and_potatoes",
       "unitWorth": 520,
       "amount": {
         "min": 1,
@@ -83,9 +83,9 @@
       },
       "rarity": "UNCOMMON"
     },
-    "fd_ratatouille": {
+    "cl_roastbeef": {
       "type": "item",
-      "content": "farmersdelight:ratatouille",
+      "content": "candlelight:roastbeef_with_glazed_carrots",
       "unitWorth": 480,
       "amount": {
         "min": 1,
@@ -93,9 +93,9 @@
       },
       "rarity": "UNCOMMON"
     },
-    "fd_shepherds_pie": {
+    "br_pork_knuckle": {
       "type": "item",
-      "content": "farmersdelight:shepherds_pie",
+      "content": "brewery:pork_knuckle",
       "unitWorth": 1600,
       "amount": {
         "min": 1,
@@ -103,9 +103,9 @@
       },
       "rarity": "RARE"
     },
-    "fd_roast_chicken": {
+    "fc_roasted_chicken": {
       "type": "item",
-      "content": "farmersdelight:roast_chicken",
+      "content": "farm_and_charm:roasted_chicken",
       "unitWorth": 1600,
       "amount": {
         "min": 1,
@@ -287,15 +287,16 @@
         "min": 2,
         "max": 5
       },
-      "name": "Share a hearty meal (eat a stew)",
+      "name": "Share a hearty meal (eat a stew or soup)",
       "conditions": {
         "item": {
           "items": [
-            "farmersdelight:beef_stew",
-            "farmersdelight:chicken_soup",
-            "farmersdelight:vegetable_soup",
-            "farmersdelight:fish_stew",
-            "farm_and_charm:goulash"
+            "farm_and_charm:goulash",
+            "farm_and_charm:potato_soup",
+            "farm_and_charm:barley_soup",
+            "farm_and_charm:onion_soup",
+            "candlelight:tomato_soup",
+            "candlelight:mushroom_soup"
           ]
         }
       }

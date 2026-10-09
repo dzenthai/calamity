@@ -1,0 +1,213 @@
+{
+  "config_version": "2.0.42",
+  "config_datetime": "2026-10-05_22-31-41",
+  "general": {
+    "prevent_structure_overlap": true
+  },
+  "structure_namespaces": [
+    {
+      "name": "eternal_starlight",
+      "exclude_from_overlap_prevention": true
+    },
+    {
+      "name": "twilightforest",
+      "exclude_from_overlap_prevention": true
+    }
+  ],
+  "structures": [
+    {
+      "name": "archaion:ancient_keep",
+      "override_global_distance_from_world_center": true,
+      "enable_min_distance_from_world_center": true,
+      "min_distance_from_world_center": 1500
+    },
+    {
+      "name": "block_factorys_bosses:dragon_tower",
+      "override_global_distance_from_world_center": true,
+      "enable_min_distance_from_world_center": true,
+      "min_distance_from_world_center": 1000
+    },
+    {
+      "name": "block_factorys_bosses:kraken_ship",
+      "override_global_distance_from_world_center": true,
+      "enable_min_distance_from_world_center": true,
+      "min_distance_from_world_center": 1000
+    },
+    {
+      "name": "block_factorys_bosses:sandworm_nest",
+      "override_global_distance_from_world_center": true,
+      "enable_min_distance_from_world_center": true,
+      "min_distance_from_world_center": 500
+    },
+    {
+      "name": "block_factorys_bosses:yeti_hideout",
+      "override_global_distance_from_world_center": true,
+      "enable_min_distance_from_world_center": true,
+      "min_distance_from_world_center": 500
+    },
+    {
+      "name": "cataclysm:acropolis",
+      "override_global_distance_from_world_center": true,
+      "enable_min_distance_from_world_center": true,
+      "min_distance_from_world_center": 1000
+    },
+    {
+      "name": "cataclysm:ancient_factory",
+      "override_global_distance_from_world_center": true,
+      "enable_min_distance_from_world_center": true,
+      "min_distance_from_world_center": 1000
+    },
+    {
+      "name": "cataclysm:cursed_pyramid",
+      "override_global_distance_from_world_center": true,
+      "enable_min_distance_from_world_center": true,
+      "min_distance_from_world_center": 1000
+    },
+    {
+      "name": "cataclysm:frosted_prison",
+      "override_global_distance_from_world_center": true,
+      "enable_min_distance_from_world_center": true,
+      "min_distance_from_world_center": 1000
+    },
+    {
+      "name": "cataclysm:sunken_city",
+      "override_global_distance_from_world_center": true,
+      "enable_min_distance_from_world_center": true,
+      "min_distance_from_world_center": 1000
+    },
+    {
+      "name": "fdbosses:chesed_arena",
+      "override_global_distance_from_world_center": true,
+      "enable_min_distance_from_world_center": true,
+      "min_distance_from_world_center": 1000
+    },
+    {
+      "name": "fdbosses:malkuth_arena",
+      "override_global_distance_from_world_center": true,
+      "enable_min_distance_from_world_center": true,
+      "min_distance_from_world_center": 1000
+    },
+    {
+      "name": "minecraft:buried_treasure",
+      "exclude_from_overlap_prevention": true
+    },
+    {
+      "name": "minecraft:mineshaft",
+      "exclude_from_overlap_prevention": true
+    },
+    {
+      "name": "minecraft:mineshaft_mesa",
+      "exclude_from_overlap_prevention": true
+    },
+    {
+      "name": "minecraft:stronghold",
+      "exclude_from_overlap_prevention": true
+    },
+    {
+      "name": "mowziesmobs:frostmaw_spawn",
+      "override_global_distance_from_world_center": true,
+      "enable_min_distance_from_world_center": true,
+      "min_distance_from_world_center": 500
+    },
+    {
+      "name": "mowziesmobs:monastery",
+      "override_global_distance_from_world_center": true,
+      "enable_min_distance_from_world_center": true,
+      "min_distance_from_world_center": 500
+    },
+    {
+      "name": "mowziesmobs:umvuthana_grove",
+      "override_global_distance_from_world_center": true,
+      "enable_min_distance_from_world_center": true,
+      "min_distance_from_world_center": 500
+    },
+    {
+      "name": "netherman:maze",
+      "exclude_from_overlap_prevention": true,
+      "override_global_distance_from_world_center": true,
+      "enable_min_distance_from_world_center": true,
+      "min_distance_from_world_center": 800
+    },
+    {
+      "name": "netherman:monument",
+      "exclude_from_overlap_prevention": true
+    },
+    {
+      "name": "netherman:nether_geyser",
+      "exclude_from_overlap_prevention": true
+    },
+    {
+      "name": "tlc:lost_castle",
+      "override_global_distance_from_world_center": true,
+      "enable_min_distance_from_world_center": true,
+      "min_distance_from_world_center": 500
+    }
+  ],
+  "structure_sets": [
+    {
+      "name": "archaion:ancient_keep",
+      "placement_attempts": 4
+    },
+    {
+      "name": "block_factorys_bosses:dragon_tower",
+      "placement_attempts": 4
+    },
+    {
+      "name": "block_factorys_bosses:kraken_ship",
+      "placement_attempts": 4
+    },
+    {
+      "name": "block_factorys_bosses:underworld_arena",
+      "placement_attempts": 4
+    },
+    {
+      "name": "fdbosses:chesed_arena",
+      "placement_attempts": 4
+    },
+    {
+      "name": "fdbosses:geburah_arena",
+      "placement_attempts": 4
+    },
+    {
+      "name": "fdbosses:malkuth_arena",
+      "placement_attempts": 4
+    },
+    {
+      "name": "hellish_trials:minor_structures",
+      "placement_attempts": 4
+    },
+    {
+      "name": "irons_spellbooks:citadel",
+      "placement_attempts": 4
+    },
+    {
+      "name": "minecraft:ruined_portals",
+      "spacing": 70,
+      "separation": 30
+    },
+    {
+      "name": "netherman:gast_chamber",
+      "spacing": 16,
+      "separation": 8
+    },
+    {
+      "name": "netherman:mansion_nether",
+      "placement_attempts": 4
+    },
+    {
+      "name": "netherman:minor_points",
+      "spacing": 16,
+      "separation": 8
+    },
+    {
+      "name": "tlc:structure_lost_castle_set",
+      "placement_attempts": 4
+    },
+    {
+      "name": "toxony:lost_silver_mine",
+      "spacing": 40,
+      "separation": 16
+    }
+  ],
+  "structure_template_pools": []
+}

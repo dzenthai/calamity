@@ -1,44 +1,44 @@
 {
   "content": {
-    "fd_cabbage": {
+    "fc_onion": {
       "type": "item",
-      "content": "farmersdelight:cabbage",
+      "content": "farm_and_charm:onion",
       "unitWorth": 60,
       "amount": {
         "min": 8,
         "max": 32
       }
     },
-    "fd_tomato": {
+    "fc_tomato": {
       "type": "item",
-      "content": "farmersdelight:tomato",
+      "content": "farm_and_charm:tomato",
       "unitWorth": 55,
       "amount": {
         "min": 8,
         "max": 32
       }
     },
-    "fd_onion": {
+    "br_hops_crop": {
       "type": "item",
-      "content": "farmersdelight:onion",
+      "content": "brewery:hops",
       "unitWorth": 55,
       "amount": {
         "min": 8,
         "max": 32
       }
     },
-    "fd_rice": {
+    "hb_green_tea": {
       "type": "item",
-      "content": "farmersdelight:rice",
+      "content": "herbalbrews:green_tea_leaf",
       "unitWorth": 60,
       "amount": {
         "min": 8,
         "max": 32
       }
     },
-    "fd_straw": {
+    "br_dried_wheat": {
       "type": "item",
-      "content": "farmersdelight:straw",
+      "content": "brewery:dried_wheat",
       "unitWorth": 30,
       "amount": {
         "min": 16,

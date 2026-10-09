@@ -1,20 +1,20 @@
 {
-  "_comment": "Presets replace vanilla structures with Moogs ones. Spacing multipliers make structures rarer (higher) or denser (lower); effective = universal x per_mod x per_structure. Changes apply on world reload and only affect newly generated chunks.",
+  "_comment": "Presets replace vanilla structures with Moogs ones. Frequency multipliers say how common structures are: 2.0 means about twice as many, 0.5 about half as many; effective = universal x per_mod x per_structure. Changes apply on world reload and only affect newly generated chunks.",
   "presets": {
     "mns": {
-      "replace_nether_fortress": true
+      "replace_nether_fortress": false
     },
     "mtr": {
       "replace_desert_temple": true,
       "replace_jungle_temple": true,
-      "replace_ocean_monument": true,
+      "replace_ocean_monument": false,
       "replace_stronghold": false
     }
   },
-  "spacing": {
+  "frequency": {
     "universal_multiplier": 1.0,
     "per_mod": {
-      "mes": 0.49,
+      "mes": 4.164931,
       "mns": 1.0,
       "mss": 1.0,
       "mtr": 1.0
@@ -123,5 +123,8 @@
     }
   },
   "disabled_structures": [],
-  "hidden_buttons": []
+  "hidden_buttons": [
+    "discord",
+    "kofi"
+  ]
 }

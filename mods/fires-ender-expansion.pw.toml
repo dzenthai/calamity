@@ -1,0 +1,13 @@
+name = "Fire's Ender Expansion"
+filename = "firesenderexpansion-2.5.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ff881371ff04f77135f0a7f4f11ff80cc70bb53f"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9005006
+project-id = 1245989

@@ -1,17 +1,17 @@
 {
   "content": {
-    "fd_rich_soil": {
+    "fc_fertilized_soil": {
       "type": "item",
-      "content": "farmersdelight:rich_soil",
+      "content": "farm_and_charm:fertilized_soil",
       "unitWorth": 250,
       "amount": {
         "min": 4,
         "max": 16
       }
     },
-    "fd_organic_compost": {
+    "fc_compost": {
       "type": "item",
-      "content": "farmersdelight:organic_compost",
+      "content": "farm_and_charm:compost",
       "unitWorth": 600,
       "amount": {
         "min": 2,
@@ -19,9 +19,9 @@
       },
       "rarity": "UNCOMMON"
     },
-    "fd_iron_knife": {
+    "bk_bread_knife": {
       "type": "item",
-      "content": "farmersdelight:iron_knife",
+      "content": "bakery:bread_knife",
       "unitWorth": 1200,
       "amount": {
         "min": 1,
@@ -29,9 +29,9 @@
       },
       "rarity": "UNCOMMON"
     },
-    "fd_diamond_knife": {
+    "br_copper_station": {
       "type": "item",
-      "content": "farmersdelight:diamond_knife",
+      "content": "brewery:copper_brewingstation",
       "unitWorth": 4000,
       "amount": {
         "min": 1,
@@ -40,18 +40,18 @@
       "rarity": "EPIC",
       "repRequired": 15
     },
-    "fd_tomato_seeds": {
+    "fc_tomato_seeds": {
       "type": "item",
-      "content": "farmersdelight:tomato_seeds",
+      "content": "farm_and_charm:tomato_seeds",
       "unitWorth": 60,
       "amount": {
         "min": 4,
         "max": 12
       }
     },
-    "fd_cabbage_seeds": {
+    "br_hops": {
       "type": "item",
-      "content": "farmersdelight:cabbage_seeds",
+      "content": "brewery:hops",
       "unitWorth": 60,
       "amount": {
         "min": 4,
@@ -162,9 +162,9 @@
       "rarity": "UNCOMMON",
       "weightMult": 0.5
     },
-    "fd_feast_ham": {
+    "md_buffalo_ham": {
       "type": "item",
-      "content": "farmersdelight:honey_glazed_ham",
+      "content": "meadow:roasted_buffalo_ham",
       "unitWorth": 2100,
       "amount": {
         "min": 1,

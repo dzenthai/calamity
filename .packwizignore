@@ -1,0 +1,6 @@
+# repository-only files, not part of the pack
+.git/
+.gitattributes
+.gitignore
+docs/
+tools/

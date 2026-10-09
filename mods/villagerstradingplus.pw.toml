@@ -1,0 +1,13 @@
+name = "VillagersTradingPlus"
+filename = "[Content]villagertradingplus-neoforge-mc1.21.1-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/DhOXUfnP/versions/WwmKBVrp/villagertradingplus-neoforge-mc1.21.1-1.0.0.jar"
+hash-format = "sha512"
+hash = "a29ae089a02ede639c614a9e770128c5a58adbad4b38ccc83ae80f80325cf7966fda744da6ebefa510247510386fb9d9654fafaf16e6e72c7091d936800d6b49"
+
+[update]
+[update.modrinth]
+mod-id = "DhOXUfnP"
+version = "WwmKBVrp"

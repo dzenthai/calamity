@@ -1,0 +1,13 @@
+name = "Pillager Caravans"
+filename = "[Content]caravans-neoforge-1.21.1-3.0.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/8jJHxtdz/versions/jYXz3Oj1/caravans-neoforge-1.21.1-3.0.1.jar"
+hash-format = "sha512"
+hash = "d5e95343f1f39880287b5f080fe921533b773d942743e867e0e07493144e43c3e08eac75ebb3694fcc898b1b046ad1ea7d537f0b7774f10ff31fd5b287862786"
+
+[update]
+[update.modrinth]
+mod-id = "8jJHxtdz"
+version = "jYXz3Oj1"

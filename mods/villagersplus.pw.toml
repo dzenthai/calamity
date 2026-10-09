@@ -1,0 +1,13 @@
+name = "VillagersPlus"
+filename = "[Content]villagersplus-neoforge-mc1.21.1-4.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/oHGMwNDR/versions/nwy2u2f5/villagersplus-neoforge-mc1.21.1-4.0.0.jar"
+hash-format = "sha512"
+hash = "8db846840220f220ef3a58d0e4f20d9a38573ef37e2ae27a55ffbd79c4f3db769549e59131127b21b98ef47370dc18fca54ba32ac0564e4a8c811e1d4c0f6fc3"
+
+[update]
+[update.modrinth]
+mod-id = "oHGMwNDR"
+version = "nwy2u2f5"

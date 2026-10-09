@@ -88,7 +88,7 @@ function runIntro(server, p) {
   run('data merge entity @e[tag=calamity_kairen,limit=1] {NoAI:1b,Rotation:[0f,0f]}')
   // посох в правой руке; после катсцены он перейдёт к игроку (onBody)
   run('loot replace entity @e[tag=calamity_kairen,limit=1] weapon.mainhand loot calamity:kairen_staff')
-  CalamityMarks.add(server, n, 'kairen', s.x + 0.5, s.y, s.z + 0.5, 0)
+  CalamityMarks.add(server, n, 'kairen', s.x + 0.5, s.y, s.z + 0.5, 0, 'Тело')
   placeLetter(server, p, s)
   server.scheduleInTicks(40, () => server.runCommandSilent('title ' + n + ' actionbar {"text":"Осмотри тело","color":"gold","italic":true}'))
   console.info('[calamity_story] intro for ' + n + ' at ' + s.x + ' ' + s.y + ' ' + s.z)

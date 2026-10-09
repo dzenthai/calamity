@@ -18,4 +18,4 @@
 	#Show effect icon or not
 	showEffectIcon = true
 	#Enable durability on Fantasy Armor pieces. When false, armor is indestructible. Requires game restart.
-	enableDurability = false
+	enableDurability = true

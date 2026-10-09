@@ -1,0 +1,13 @@
+name = "Deeper and Darker: Spellbooks"
+filename = "darkermagic-1.3.3-1.21.1-ver.b.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/bY4q13Xr/versions/oBllvIgO/darkermagic-1.3.3-1.21.1-ver.b.jar"
+hash-format = "sha512"
+hash = "32cf251e1920ff784e91ec52c9db3516fb22dbe7119b0c450e85e2ae1b1500fb5fde6cbc2ce03ce0dfa8e20e1a17053d99a84cc7e59ae41c3b7607650bd4abdf"
+
+[update]
+[update.modrinth]
+mod-id = "bY4q13Xr"
+version = "oBllvIgO"

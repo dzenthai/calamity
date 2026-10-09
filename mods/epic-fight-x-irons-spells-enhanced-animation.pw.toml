@@ -1,0 +1,13 @@
+name = "Epic Fight x Iron's Spells: Enhanced Animation"
+filename = "efiscompat-3.1.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/LMXo8kAe/versions/GsoNyVKG/efiscompat-3.1.0.jar"
+hash-format = "sha512"
+hash = "2bfd240b3606e911242f05296e3a9d06a92a1fc3f0a3e4e1f54cc5919bb0b0e9d5910670ca28a64bea0e9e6e25b642ef736cfd545bb859936d1bdf957397296d"
+
+[update]
+[update.modrinth]
+mod-id = "LMXo8kAe"
+version = "GsoNyVKG"

@@ -16,3 +16,7 @@ SpoutFillsTable = true
 SpoutFillsBasin = false
 #Whether to generate recycling recipes from crafting, cooking, stonecutting and smithing recipes, for items that don't have a melting recipe yet
 RecyclingRecipes = true
+#Whether to generate brick forge recipes from smelting recipes whose result has no blasting or smoking recipe and is stackable
+GeneratedForgeRecipes = true
+#Whether to generate alloying, melting and casting recipes from Create's mixing and compacting recipes
+GeneratedCreateRecipes = true

@@ -1,0 +1,13 @@
+name = "Cinematic Respawn"
+filename = "cinematic_respawn-1.21.1-neoforge-1.4.0.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/CFJWaa89/versions/M5j8LrcQ/cinematic_respawn-1.21.1-neoforge-1.4.0.jar"
+hash-format = "sha512"
+hash = "75702593284a45d291e88eae0e86bb0f3ba604bb58346ab7817cc4db3553c4bbe23a57b4cfb342fee13e15abd3af4a808b3af04fa63b72509a5b87f7a2373a47"
+
+[update]
+[update.modrinth]
+mod-id = "CFJWaa89"
+version = "M5j8LrcQ"

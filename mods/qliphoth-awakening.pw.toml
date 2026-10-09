@@ -1,0 +1,13 @@
+name = "Qliphoth Awakening"
+filename = "fdbosses-3.1.0.3-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/7fqQYwaC/versions/mubOR5lN/fdbosses-3.1.0.3-1.21.1.jar"
+hash-format = "sha512"
+hash = "db1b06ef19e757a397f2efe77f09e7f84f9b97bc5c14a0607dd2dde49b0aa453850cd8d130758d5e7bdcc73637c65bb13c501eb836410764741aa682151a87ca"
+
+[update]
+[update.modrinth]
+mod-id = "7fqQYwaC"
+version = "mubOR5lN"

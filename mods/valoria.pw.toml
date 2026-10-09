@@ -1,0 +1,13 @@
+name = "Valoria"
+filename = "Valoria-1.21.1-1.1.0.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/PmIir1iT/versions/NDbxWEf5/Valoria-1.21.1-1.1.0.2.jar"
+hash-format = "sha512"
+hash = "286248f226bde505dfa2ccbf4ad62f17ce71d7788f6d3bd5847b23cdde1a863c1cde3446d002d9f00caaa46c37e58cf65b0b629172de70cd7e5eb29e0624998d"
+
+[update]
+[update.modrinth]
+mod-id = "PmIir1iT"
+version = "NDbxWEf5"

@@ -1,0 +1,13 @@
+name = "Heal Enemies  On Player Death"
+filename = "[Content]raj_healenemymod-1.0.2-1.21.1NEOFORGE.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "05f004e8fc7a2eef6ecf77fa572f1f0f6126c9ef"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7911193
+project-id = 1014475

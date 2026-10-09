@@ -1,0 +1,13 @@
+name = "Reliquified Iron's Spells 'n Spellbooks"
+filename = "reliquified_irons_spells_and_spellbooks-1.21.1-0.2.7.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/NFDUFVtK/versions/3c2Q2RnP/reliquified_irons_spells_and_spellbooks-1.21.1-0.2.7.jar"
+hash-format = "sha512"
+hash = "773a56864285f860602ba74b0f6416ffb2c7fe55456b672c71a425006a78f8e265bfec07ee563668f67806a812641bdff2260fc97cf7826cd3773f8c49bed14d"
+
+[update]
+[update.modrinth]
+mod-id = "NFDUFVtK"
+version = "3c2Q2RnP"

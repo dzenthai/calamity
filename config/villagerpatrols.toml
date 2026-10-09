@@ -1,0 +1,393 @@
+[Events]
+	#Enables random world encounters such as travelers, camps, mounted groups, prisoners and trader meetings.
+	enableWorldEvents = true
+	#Minimum distance from the player where world events can appear.
+	# Default: 16
+	# Range: > 8
+	worldEventMinPlayerDistance = 16
+	#Maximum distance from the player where world events can appear.
+	# Default: 35
+	# Range: > 18
+	worldEventMaxPlayerDistance = 35
+	#Minimum delay in ticks before trying to spawn another world event after a failed attempt.
+	# Default: 2500
+	# Range: > 100
+	worldEventAttemptDelayMinTicks = 2500
+	#Maximum delay in ticks before trying to spawn another world event after a failed attempt.
+	# Default: 3600
+	# Range: > 100
+	worldEventAttemptDelayMaxTicks = 3600
+	#Minimum cooldown in ticks after a world event successfully spawns.
+	# Default: 5200
+	# Range: > 100
+	worldEventSuccessCooldownMinTicks = 5200
+	#Maximum cooldown in ticks after a world event successfully spawns.
+	# Default: 6000
+	# Range: > 100
+	worldEventSuccessCooldownMaxTicks = 6000
+	#Enables or disables this world event.
+	enableTravelerGroupWorldEvent = true
+	#Selection weight for this world event. Higher values make it more likely to be selected. Set to 0 to disable it.
+	# Default: 6
+	# Range: > 0
+	travelerGroupWorldEventWeight = 6
+	#Enables or disables this world event.
+	enableArmedTravelerGroupWorldEvent = true
+	#Selection weight for this world event. Higher values make it more likely to be selected. Set to 0 to disable it.
+	# Default: 6
+	# Range: > 0
+	armedTravelerGroupWorldEventWeight = 6
+	#Enables or disables this world event.
+	enableTravelerFamilyWorldEvent = true
+	#Selection weight for this world event. Higher values make it more likely to be selected. Set to 0 to disable it.
+	# Default: 8
+	# Range: > 0
+	travelerFamilyWorldEventWeight = 8
+	#Enables or disables this world event.
+	enableLoneDesertTravelerWorldEvent = true
+	#Selection weight for this world event. Higher values make it more likely to be selected. Set to 0 to disable it.
+	# Default: 5
+	# Range: > 0
+	loneDesertTravelerWorldEventWeight = 5
+	#Enables or disables this world event.
+	enableLoneIceTravelerWorldEvent = true
+	#Selection weight for this world event. Higher values make it more likely to be selected. Set to 0 to disable it.
+	# Default: 5
+	# Range: > 0
+	loneIceTravelerWorldEventWeight = 5
+	#Enables or disables this world event.
+	enableMountedVillagerWorldEvent = true
+	#Selection weight for this world event. Higher values make it more likely to be selected. Set to 0 to disable it.
+	# Default: 8
+	# Range: > 0
+	mountedVillagerWorldEventWeight = 8
+	#Enables or disables this world event.
+	enableMountedKnightWorldEvent = true
+	#Selection weight for this world event. Higher values make it more likely to be selected. Set to 0 to disable it.
+	# Default: 8
+	# Range: > 0
+	mountedKnightWorldEventWeight = 8
+	#Enables or disables this world event.
+	enableMountedEvilKnightWorldEvent = true
+	#Selection weight for this world event. Higher values make it more likely to be selected. Set to 0 to disable it.
+	# Default: 8
+	# Range: > 0
+	mountedEvilKnightWorldEventWeight = 8
+	#Enables or disables this world event.
+	enableMountedIllagerWorldEvent = true
+	#Selection weight for this world event. Higher values make it more likely to be selected. Set to 0 to disable it.
+	# Default: 4
+	# Range: > 0
+	mountedIllagerWorldEventWeight = 4
+	#Enables or disables this world event.
+	enableMountedRavagerIllagerWorldEvent = true
+	#Selection weight for this world event. Higher values make it more likely to be selected. Set to 0 to disable it.
+	# Default: 2
+	# Range: > 0
+	mountedRavagerIllagerWorldEventWeight = 2
+	#Enables or disables this world event.
+	enableMountedCamelVillagerWorldEvent = true
+	#Selection weight for this world event. Higher values make it more likely to be selected. Set to 0 to disable it.
+	# Default: 8
+	# Range: > 0
+	mountedCamelVillagerWorldEventWeight = 8
+	#Enables or disables this world event.
+	enableCampingVillagersWorldEvent = true
+	#Selection weight for this world event. Higher values make it more likely to be selected. Set to 0 to disable it.
+	# Default: 8
+	# Range: > 0
+	campingVillagersWorldEventWeight = 8
+	#Enables or disables this world event.
+	enableBardWorldEvent = true
+	#Selection weight for this world event. Higher values make it more likely to be selected. Set to 0 to disable it.
+	# Default: 4
+	# Range: > 0
+	bardWorldEventWeight = 4
+	#Enables or disables this world event.
+	enableFishingVillagerWorldEvent = true
+	#Selection weight for this world event. Higher values make it more likely to be selected. Set to 0 to disable it.
+	# Default: 6
+	# Range: > 0
+	fishingVillagerWorldEventWeight = 6
+	#Enables or disables this world event.
+	enableVillagerMinerWorldEvent = true
+	#Selection weight for this world event. Higher values make it more likely to be selected. Set to 0 to disable it.
+	# Default: 4
+	# Range: > 0
+	villagerMinerWorldEventWeight = 4
+	#Enables or disables this world event.
+	enableShepherdMovingAnimalsWorldEvent = true
+	#Selection weight for this world event. Higher values make it more likely to be selected. Set to 0 to disable it.
+	# Default: 7
+	# Range: > 0
+	shepherdMovingAnimalsWorldEventWeight = 7
+	#Enables or disables this world event.
+	enableShepherdDonkeyTravelerWorldEvent = true
+	#Selection weight for this world event. Higher values make it more likely to be selected. Set to 0 to disable it.
+	# Default: 4
+	# Range: > 0
+	shepherdDonkeyTravelerWorldEventWeight = 4
+	#Enables or disables this world event.
+	enableDesertCamelTravelerWorldEvent = true
+	#Selection weight for this world event. Higher values make it more likely to be selected. Set to 0 to disable it.
+	# Default: 4
+	# Range: > 0
+	desertCamelTravelerWorldEventWeight = 4
+	#Enables or disables this world event.
+	enableHealerWorldEvent = true
+	#Selection weight for this world event. Higher values make it more likely to be selected. Set to 0 to disable it.
+	# Default: 4
+	# Range: > 0
+	healerWorldEventWeight = 4
+	#Enables or disables this world event.
+	enableWanderingTraderMeetingWorldEvent = true
+	#Selection weight for this world event. Higher values make it more likely to be selected. Set to 0 to disable it.
+	# Default: 3
+	# Range: > 0
+	wanderingTraderMeetingWorldEventWeight = 3
+	#Enables or disables this world event.
+	enableEvilKnightPrisonersWorldEvent = true
+	#Selection weight for this world event. Higher values make it more likely to be selected. Set to 0 to disable it.
+	# Default: 5
+	# Range: > 0
+	evilKnightPrisonersWorldEventWeight = 5
+	#Enables or disables this world event.
+	enableHumanWitchWorldEvent = true
+	#Selection weight for this world event. Higher values make it more likely to be selected. Set to 0 to disable it.
+	# Default: 2
+	# Range: > 0
+	humanWitchWorldEventWeight = 2
+	#Enables or disables this world event.
+	enableZombieHordeWorldEvent = true
+	#Selection weight for this world event. Higher values make it more likely to be selected. Set to 0 to disable it.
+	# Default: 5
+	# Range: > 0
+	zombieHordeWorldEventWeight = 5
+
+[Skirmishes]
+	#Enables random battle encounters between groups.
+	enableSkirmishes = true
+	#Minimum distance from the player where skirmishes can appear.
+	# Default: 25
+	# Range: > 8
+	skirmishMinPlayerDistance = 25
+	#Maximum distance from the player where skirmishes can appear.
+	# Default: 45
+	# Range: > 25
+	skirmishMaxPlayerDistance = 45
+	#Minimum delay in ticks before trying to spawn another skirmish after a failed attempt.
+	# Default: 3600
+	# Range: > 100
+	skirmishAttemptDelayMinTicks = 3600
+	#Maximum delay in ticks before trying to spawn another skirmish after a failed attempt.
+	# Default: 6000
+	# Range: > 100
+	skirmishAttemptDelayMaxTicks = 6000
+	#Minimum cooldown in ticks after a skirmish successfully spawns.
+	# Default: 10000
+	# Range: > 100
+	skirmishSuccessCooldownMinTicks = 10000
+	#Maximum cooldown in ticks after a skirmish successfully spawns.
+	# Default: 12000
+	# Range: > 100
+	skirmishSuccessCooldownMaxTicks = 12000
+	#Enables or disables this skirmish.
+	enableKnightIllagerSkirmish = true
+	#Selection weight for this skirmish. Higher values make it more likely to be selected. Set to 0 to disable it.
+	# Default: 8
+	# Range: > 0
+	knightIllagerSkirmishWeight = 8
+	#Enables or disables this skirmish.
+	enableKnightEvilKnightSkirmish = true
+	#Selection weight for this skirmish. Higher values make it more likely to be selected. Set to 0 to disable it.
+	# Default: 15
+	# Range: > 0
+	knightEvilKnightSkirmishWeight = 15
+	#Enables or disables this skirmish.
+	enableKnightZombieSkirmish = true
+	#Selection weight for this skirmish. Higher values make it more likely to be selected. Set to 0 to disable it.
+	# Default: 12
+	# Range: > 0
+	knightZombieSkirmishWeight = 12
+	#Enables or disables this skirmish.
+	enableVillagerIllagerSkirmish = true
+	#Selection weight for this skirmish. Higher values make it more likely to be selected. Set to 0 to disable it.
+	# Default: 8
+	# Range: > 0
+	villagerIllagerSkirmishWeight = 8
+	#Enables or disables this skirmish.
+	enableVillagerZombieSkirmish = true
+	#Selection weight for this skirmish. Higher values make it more likely to be selected. Set to 0 to disable it.
+	# Default: 15
+	# Range: > 0
+	villagerZombieSkirmishWeight = 15
+	#Enables or disables this skirmish.
+	enableVillagerSpiderSkirmish = true
+	#Selection weight for this skirmish. Higher values make it more likely to be selected. Set to 0 to disable it.
+	# Default: 8
+	# Range: > 0
+	villagerSpiderSkirmishWeight = 8
+	#Enables or disables this skirmish.
+	enableKnightOrcSkirmish = true
+	#Selection weight for this skirmish. Higher values make it more likely to be selected. Set to 0 to disable it.
+	# Default: 10
+	# Range: > 0
+	knightOrcSkirmishWeight = 10
+	#Enables or disables this skirmish.
+	enableElfOrcSkirmish = true
+	#Selection weight for this skirmish. Higher values make it more likely to be selected. Set to 0 to disable it.
+	# Default: 8
+	# Range: > 0
+	elfOrcSkirmishWeight = 8
+	#Enables or disables this skirmish.
+	enableDwarfOrcSkirmish = true
+	#Selection weight for this skirmish. Higher values make it more likely to be selected. Set to 0 to disable it.
+	# Default: 8
+	# Range: > 0
+	dwarfOrcSkirmishWeight = 8
+	#Enables or disables this skirmish.
+	enableEvilKnightOrcSkirmish = true
+	#Selection weight for this skirmish. Higher values make it more likely to be selected. Set to 0 to disable it.
+	# Default: 10
+	# Range: > 0
+	evilKnightOrcSkirmishWeight = 10
+	#Enables or disables this skirmish.
+	enableKnightBanditSkirmish = true
+	#Selection weight for this skirmish. Higher values make it more likely to be selected. Set to 0 to disable it.
+	# Default: 8
+	# Range: > 0
+	knightBanditSkirmishWeight = 8
+	#Enables or disables this skirmish.
+	enableVillagerBanditSkirmish = true
+	#Selection weight for this skirmish. Higher values make it more likely to be selected. Set to 0 to disable it.
+	# Default: 6
+	# Range: > 0
+	villagerBanditSkirmishWeight = 6
+	#Enables or disables this skirmish.
+	enableEvilKnightElfSkirmish = true
+	#Selection weight for this skirmish. Higher values make it more likely to be selected. Set to 0 to disable it.
+	# Default: 8
+	# Range: > 0
+	evilKnightElfSkirmishWeight = 8
+	#Enables or disables this skirmish.
+	enableEvilKnightDwarfSkirmish = true
+	#Selection weight for this skirmish. Higher values make it more likely to be selected. Set to 0 to disable it.
+	# Default: 8
+	# Range: > 0
+	evilKnightDwarfSkirmishWeight = 8
+	#Enables or disables Wizards vs Evil Wizards skirmishes.
+	enableWizardEvilWizardSkirmish = true
+	#Selection weight for Wizards vs Evil Wizards skirmishes. Higher values make them more likely to be selected. Set to 0 to disable them.
+	# Default: 4
+	# Range: > 0
+	wizardEvilWizardSkirmishWeight = 4
+	#Enables or disables this skirmish.
+	enableVillagerOrcSkirmish = true
+	#Selection weight for this skirmish. Higher values make it more likely to be selected. Set to 0 to disable it.
+	# Default: 6
+	# Range: > 0
+	villagerOrcSkirmishWeight = 6
+
+[Spawns]
+	#Enables natural spawns added by this mod where supported.
+	enableNaturalSpawns = true
+	#Enables or disables natural spawning for knight.
+	enableKnightNaturalSpawns = true
+	#Spawn weight for knight. Higher values make it more common. Set to 0 to disable it where supported.
+	# Default: 4
+	# Range: > 0
+	knightNaturalSpawnWeight = 4
+	#Enables or disables natural spawning for evil knight.
+	enableEvilKnightNaturalSpawns = true
+	#Spawn weight for evil knight. Higher values make it more common. Set to 0 to disable it where supported.
+	# Default: 4
+	# Range: > 0
+	evilKnightNaturalSpawnWeight = 4
+	#Enables or disables natural spawning for orc.
+	enableOrcNaturalSpawns = true
+	#Spawn weight for orc. Higher values make it more common. Set to 0 to disable it where supported.
+	# Default: 5
+	# Range: > 0
+	orcNaturalSpawnWeight = 5
+	#Enables or disables natural spawning for human pillager.
+	enableHumanPillagerNaturalSpawns = true
+	#Spawn weight for human pillager. Higher values make it more common. Set to 0 to disable it where supported.
+	# Default: 4
+	# Range: > 0
+	humanPillagerNaturalSpawnWeight = 4
+	#Allows Illager Swordsmen to replace some Human Pillagers in natural illager patrols and illager skirmishes.
+	enableIllagerSwordsmanVariants = true
+	#Allows Illager Archers to replace some Human Pillagers in natural illager patrols and illager skirmishes.
+	enableIllagerArcherVariants = true
+	#Enables or disables natural spawning for human witch.
+	enableHumanWitchNaturalSpawns = true
+	#Spawn weight for human witch. Higher values make it more common. Set to 0 to disable it where supported.
+	# Default: 15
+	# Range: > 0
+	humanWitchNaturalSpawnWeight = 15
+	#Enables or disables natural spawning for elves.
+	enableElfNaturalSpawns = true
+	#Spawn weight for elves. Higher values make them more common. Set to 0 to disable them where supported.
+	# Default: 5
+	# Range: > 0
+	elfNaturalSpawnWeight = 5
+	#Enables or disables natural spawning for dwarves.
+	enableDwarfNaturalSpawns = true
+	#Spawn weight for dwarves. Higher values make them more common. Set to 0 to disable them where supported.
+	# Default: 5
+	# Range: > 0
+	dwarfNaturalSpawnWeight = 5
+	#Enables or disables natural spawning for bandits.
+	enableBanditNaturalSpawns = true
+	#Spawn weight for bandits. Higher values make them more common. Set to 0 to disable them where supported.
+	# Default: 3
+	# Range: > 0
+	banditNaturalSpawnWeight = 3
+	#Enables or disables natural spawning for evil wizards.
+	enableEvilWizardNaturalSpawns = true
+	#Spawn weight for evil wizards. Higher values make them more common. Set to 0 to disable them where supported.
+	# Default: 20
+	# Range: > 0
+	evilWizardNaturalSpawnWeight = 20
+	#Enables or disables natural spawning for wizards.
+	enableWizardNaturalSpawns = true
+	#Spawn weight for wizards. Higher values make them more common. Set to 0 to disable them where supported.
+	# Default: 20
+	# Range: > 0
+	wizardNaturalSpawnWeight = 20
+	#Enables or disables natural spawning for vampires.
+	enableVampireNaturalSpawns = true
+	#Spawn weight for vampires. Higher values make them more common. Set to 0 to disable them where supported.
+	# Default: 30
+	# Range: > 0
+	vampireNaturalSpawnWeight = 30
+	#Enables or disables natural spawning for shadow.
+	enableShadowNaturalSpawns = true
+	#Spawn weight for shadow. Higher values make them more common. Set to 0 to disable them where supported.
+	# Default: 100
+	# Range: > 0
+	shadowNaturalSpawnWeight = 100
+	#Enables or disables natural spawning for shadow rider.
+	enableShadowRiderNaturalSpawns = true
+	#Spawn weight for shadow rider. Higher values make them more common. Set to 0 to disable them where supported.
+	# Default: 10
+	# Range: > 0
+	shadowRiderNaturalSpawnWeight = 10
+	#Enables village guards near village bells.
+	enableVillageGuards = true
+
+[Wards]
+	#Enables ward banners that block Villager Patrols spawn content nearby.
+	enableWardBanners = true
+	#Initial delay in minutes before this mod allows natural and chunk generation spawn placement checks. Set to 0 to disable.
+	# Default: 2
+	# Range: > 0
+	initialSpawnDelayMinutes = 2
+	#Initial delay in minutes before this mod allows world events and skirmishes. Set to 0 to disable.
+	# Default: 2
+	# Range: > 0
+	initialWorldEventAndSkirmishDelayMinutes = 2
+	#Radius in blocks where the total ward banner blocks Villager Patrols spawn content.
+	# Default: 96
+	# Range: > 0
+	wardBannerRadius = 96

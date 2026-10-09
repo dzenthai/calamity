@@ -1,0 +1,64 @@
+#Gameplay Settings
+[gameplay]
+	#Enable first join reward (Starter Bundle)
+	enableFirstJoinReward = true
+	#Enable codex title
+	enableCodexTitle = true
+	#Enables the progression system for the Codex.
+	#If true, players must unlock entries via gameplay.
+	#If false, all entries are visible by default.
+	enableCodexProgression = true
+	#Codex updating rate, specified in seconds
+	# Default: 3.0
+	# Range: 1.0 ~ 10000.0
+	codexUpdateInterval = 3.0
+	#Food spoiling on entering Valoria dimension
+	enableFoodRot = false
+	#Food spoiling time, specified in seconds
+	# Default: 600.0
+	# Range: 0.1 ~ 10000.0
+	foodRotInterval = 600.0
+	#Nihility System in Valoria
+	enableNihility = true
+	#Damage multiplier per 10% of excess Nihility
+	#Formula: 1.0 + (segments * multiplier)
+	# Default: 2.0
+	# Range: 0.0 ~ 100.0
+	nihilityDamageMultiplier = 2.0
+	#Nihility applying time, specified in seconds
+	# Default: 3.0
+	# Range: 0.1 ~ 10000.0
+	nihilityAccumulationInterval = 3.0
+	#Nihility decreasing time, specified in seconds
+	# Default: 6.0
+	# Range: 0.1 ~ 10000.0
+	nihilityDecayInterval = 6.0
+	#Action on maximum Nihility amount reached
+	#Allowed Values: KILL, DAMAGE, TELEPORT
+	maxNihilityAction = "TELEPORT"
+	#Blindness on critical Nihility amount reached
+	criticalNihilityBlindness = true
+
+#Level Generation
+[levelgen]
+	#How many tries generator will perform to generate a pot (0 -> n)
+	# Default: 4
+	# Range: 0 ~ 1
+	PotSpawnTries = 1
+	#Pots spawn chance
+	# Default: 0.025
+	# Range: 0.0 ~ 1.0
+	PotSpawnChance = 0.025
+	#How many tries generator will perform to generate a cave pot (0 -> n)
+	# Default: 8
+	# Range: 0 ~ 1
+	CavePotSpawnTries = 1
+	#Cave pots spawn chance
+	# Default: 0.03
+	# Range: 0.0 ~ 1.0
+	CavePotSpawnChance = 0.03
+
+#Misc
+[misc]
+	#Patreon rewards
+	PatreonRewards = true

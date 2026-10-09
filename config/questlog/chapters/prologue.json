@@ -1,9 +1,0 @@
-{
-  "name": "Пролог · Пепел Агарвена",
-  "icon": {
-    "item": "minecraft:soul_lantern"
-  },
-  "order": 0,
-  "default_chapter": true,
-  "hidden": false
-}

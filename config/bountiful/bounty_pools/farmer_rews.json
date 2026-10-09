@@ -1,8 +1,8 @@
 {
   "content": {
-    "fd_rich_soil": {
+    "fc_fertilized_soil": {
       "type": "item",
-      "content": "farmersdelight:rich_soil",
+      "content": "farm_and_charm:fertilized_soil",
       "unitWorth": 250,
       "amount": {
         "min": 4,

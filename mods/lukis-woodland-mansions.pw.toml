@@ -1,0 +1,13 @@
+name = "Luki's Woodland Mansions"
+filename = "lukis-woodland-mansions-v1.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/RZN5D3zs/versions/1fEmTmPi/lukis-woodland-mansions-v1.0.jar"
+hash-format = "sha512"
+hash = "9c51dbd4c6d62ea35d8c5e575f1e86283f11ee96cb505f03960aee076c95ca08c0b2cea3bf2320772bcce7c36d80451d42663b7918efea69711b67e777f2dd66"
+
+[update]
+[update.modrinth]
+mod-id = "RZN5D3zs"
+version = "1fEmTmPi"

@@ -7,9 +7,15 @@
   "horse_combat": "yes",
   "transparent_horses": "yes",
   "gender_breeding": "yes",
-  "horse_pvp": "yes",
   "cart_pickup": "yes",
   "leaf_passthrough": "yes",
+  "hoof_dust": "yes",
+  "rear_neigh": "yes",
+  "horse_charge": "yes",
+  "horse_kick": "yes",
+  "horse_defend": "yes",
+  "horse_spook": "yes",
+  "horse_pvp": "yes",
   "abilities": {
     "class_abilities": "yes",
     "breed_abilities": "yes",
@@ -52,6 +58,7 @@
       "morgan_adapt": "yes",
       "paint_scan": "yes",
       "paint_structures": "yes",
+      "paint_looting": "yes",
       "appaloosa_night": "yes",
       "appaloosa_herd": "yes",
       "appaloosa_feed": "yes"
@@ -64,5 +71,11 @@
     "spawn_group_min": 2,
     "spawn_group_max": 6,
     "spawn_probability_floor": 0.1
+  },
+  "hud": {
+    "charge_meter_side": "right",
+    "charge_meter_gap": 4,
+    "harness_gauge_side": "left",
+    "harness_gauge_gap": 4
   }
 }

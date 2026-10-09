@@ -1,0 +1,13 @@
+name = "Loot Integrations: ChoiceTheorem's Overhauled Village & Immersive Structures"
+filename = "[Util]lootintegrations_ctov-1.6.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "72a941618b0296597c238fc9d3397a9e21b98c1c"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8922088
+project-id = 1135500

@@ -1,0 +1,13 @@
+name = "Shipping Bin"
+filename = "shippingbin-neoforge-1.21.1-1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e885df3ff4c9ee7662bbe259b87526006483acfd"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8674718
+project-id = 1058468

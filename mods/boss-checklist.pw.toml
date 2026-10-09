@@ -1,0 +1,13 @@
+name = "Boss Checklist"
+filename = "boss_checklist-neoforge-5.2.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/z1Dv56jq/versions/yUH4w1bO/boss_checklist-neoforge-5.2.0.jar"
+hash-format = "sha512"
+hash = "a1e0e29223e9cc9cbf73e6f0328e34971f60d8b8314fcb683b0551d4691d282bae5da8589a9afb54508d69dfa2d7077c4005604d823e1279ebfdf8923afd92d2"
+
+[update]
+[update.modrinth]
+mod-id = "z1Dv56jq"
+version = "yUH4w1bO"

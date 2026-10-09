@@ -1,0 +1,13 @@
+name = "Better Bastions: Nether Bastion Remnant Overhaul (NeoForge)"
+filename = "betterbastions-1.0.0+neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "4b9fc7c562e246b59281da6560b3c901dc15918c"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8988949
+project-id = 1713723

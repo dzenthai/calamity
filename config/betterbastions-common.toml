@@ -1,0 +1,30 @@
+#How often each bastion layout is picked (relative weights, 0 disables a layout).
+[layouts]
+	#Walled piglin town with keep, barracks and moat.
+	# Default: 30
+	# Range: 0 ~ 1000
+	citadel = 30
+	#Hoglin ranch with a terraced pit and stalls.
+	# Default: 25
+	# Range: 0 ~ 1000
+	stables = 25
+	#Treasure keep around a lava lake with the hoard on a spire.
+	# Default: 20
+	# Range: 0 ~ 1000
+	vault = 20
+	#Great arched bridge with gatehouses and a central tower.
+	# Default: 25
+	# Range: 0 ~ 1000
+	bridge = 25
+
+[generation]
+	#How ruined bastions look: 0 = pristine, 1 = heavily eroded.
+	# Default: 0.35
+	# Range: 0.0 ~ 1.0
+	decay = 0.35
+	#Multiplier for the number of piglins, brutes and hoglins (0 = empty bastions).
+	# Default: 1.0
+	# Range: 0.0 ~ 3.0
+	garrison = 1.0
+	#Surround citadels with a lava moat.
+	lavaMoats = true

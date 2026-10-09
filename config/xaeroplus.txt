@@ -38,7 +38,7 @@
 [XP] Map Art Grid Color:0
 [XP] Map Art Grid Zoom:0.0
 [XP] Min Lava Column Height:5.0
-[XP] Minimap FPS Limit:60.0
+[XP] Minimap FPS Limit:20.0
 [XP] Minimap FPS Limiter:true
 [XP] Minimap Render Z:0.0
 [XP] Minimap Scaling Factor:1.0

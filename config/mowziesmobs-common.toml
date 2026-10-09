@@ -236,7 +236,7 @@
 			#Maximum height for generation placement. -65 to ignore
 			# Default: 100.0
 			# Range: -65.0 ~ 256.0
-			height_max = 140.0
+			height_max = 256.0
 			#Minimum height for generation placement. -65 to ignore
 			# Default: 50.0
 			# Range: -65.0 ~ 256.0
@@ -305,7 +305,7 @@
 			#Maximum height for generation placement. -65 to ignore
 			# Default: 100.0
 			# Range: -65.0 ~ 256.0
-			height_max = 140.0
+			height_max = 256.0
 			#Minimum height for generation placement. -65 to ignore
 			# Default: 50.0
 			# Range: -65.0 ~ 256.0

@@ -1,0 +1,13 @@
+name = "EpicFight-Extra"
+filename = "epicfight-extra-neoforge1.21.1-1.2.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/ttzcrj0w/versions/TU1ON2si/epicfight-extra-neoforge1.21.1-1.2.2.jar"
+hash-format = "sha512"
+hash = "b671b35e5ae6b03b8491f2d8b3f53893016a84691e5a4cfbbaf323651959fed19b5c5677629c38f8688195e4132ca8369a9bd14563d840b3094bea4f26741da9"
+
+[update]
+[update.modrinth]
+mod-id = "ttzcrj0w"
+version = "TU1ON2si"

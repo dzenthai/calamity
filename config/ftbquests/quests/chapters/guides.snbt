@@ -8,7 +8,7 @@
 	}
 	id: "121BA472A999C0AD"
 	images: [ ]
-	order_index: 3
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -39,8 +39,8 @@
 				id: "1AD969F0662D862A"
 				type: "checkmark"
 			}]
-			x: -2.5d
-			y: 1.0d
+			x: 2.0d
+			y: 2.0d
 		}
 		{
 			icon: {
@@ -66,11 +66,11 @@
 			]
 			shape: "circle"
 			tasks: [{
-				id: "64417E2C6F74A82F"
+				id: "040A4B3D28E5AEB8"
 				type: "checkmark"
 			}]
-			x: 0.0d
-			y: 0.0d
+			x: 0.5d
+			y: 0.5d
 		}
 		{
 			icon: {
@@ -129,12 +129,12 @@
 				item: { count: 1, id: "sophisticatedbackpacks:backpack" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 0.0d
+			x: 3.5d
+			y: 0.5d
 		}
 		{
 			icon: {
-				id: "apotheosis:salvaging_table"
+				id: "apotheosis:gem_dust"
 			}
 			id: "2AACF96CD038BDE5"
 			optional: true
@@ -165,7 +165,7 @@
 		}
 		{
 			icon: {
-				id: "irons_spellbooks:inscription_table"
+				id: "irons_spellbooks:ender_upgrade_orb"
 			}
 			id: "7769BD9C6A8FC9D7"
 			optional: true
@@ -199,8 +199,8 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
-			y: 2.0d
+			x: 3.5d
+			y: 3.5d
 		}
 		{
 			icon: {
@@ -234,7 +234,44 @@
 		}
 		{
 			icon: {
-				id: "relics_rpgs:jewel_figurine_ruby"
+				components: {
+					"relics:data": {
+						abilities: {
+							abilities: {
+								reflection: {
+									lock: {
+										breaks: 5
+									}
+									points: 0
+									stats: {
+										bounces: {
+											initialQuality: 1
+										}
+										chance: {
+											initialQuality: 7
+										}
+										damage: {
+											initialQuality: 2
+										}
+										lifetime: {
+											initialQuality: 6
+										}
+										piercings: {
+											initialQuality: 3
+										}
+										stun: {
+											initialQuality: 9
+										}
+									}
+								}
+							}
+							synergies: { }
+						}
+						leveling: { }
+						statistic: { }
+					}
+				}
+				id: "relics:reflective_necklace"
 			}
 			id: "0D7D9ACF7298F130"
 			optional: true
@@ -260,8 +297,8 @@
 				id: "20CDB9EDCA0D78B0"
 				type: "advancement"
 			}]
-			x: 0.0d
-			y: 4.0d
+			x: 0.5d
+			y: 3.5d
 		}
 		{
 			icon: {
@@ -292,38 +329,6 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 4.0d
-		}
-		{
-			icon: {
-				id: "minecolonies:blockhuttownhall"
-			}
-			id: "3F28B98C9DFAA2DA"
-			optional: true
-			rewards: [
-				{
-					count: 16
-					id: "481BA31296107CDC"
-					item: {
-						count: 1
-						id: "minecraft:bread"
-					}
-					type: "item"
-				}
-				{
-					id: "2086F992B1E22256"
-					type: "xp"
-					xp: 30
-				}
-			]
-			shape: "circle"
-			tasks: [{
-				advancement: "minecolonies:minecolonies/place_townhall"
-				criterion: ""
-				id: "6C52A932916354FF"
-				type: "advancement"
-			}]
-			x: 4.0d
 			y: 4.0d
 		}
 	]

@@ -440,7 +440,7 @@
       "zones": [
         {
           "zone_matches": {
-            "structure": "~^(cataclysm:(sunken_city|acropolis|cursed_pyramid|frosted_prison)|block_factorys_bosses:kraken_ship|netherman:maze)$"
+            "structure": "~^(cataclysm:(sunken_city|acropolis|cursed_pyramid|frosted_prison)|block_factorys_bosses:kraken_ship|netherman:maze|fdbosses:(chesed_arena|malkuth_arena))$"
           },
           "difficulty": {
             "name": "heroic",
@@ -449,7 +449,7 @@
         },
         {
           "zone_matches": {
-            "structure": "~^(block_factorys_bosses:dragon_tower|minecraft:ancient_city)$"
+            "structure": "~^(block_factorys_bosses:dragon_tower|minecraft:ancient_city|tlc:lost_castle)$"
           },
           "difficulty": {
             "name": "heroic",
@@ -458,7 +458,7 @@
         },
         {
           "zone_matches": {
-            "structure": "~^(betterstrongholds:stronghold|mtr:stronghold|minecraft:stronghold|mowziesmobs:monastery)$"
+            "structure": "~^(minecraft:stronghold|mowziesmobs:monastery|epic:large_.*|grim_kingdoms:.*(citadel|fortress|keep|castle|bastion|colosseum).*)$"
           },
           "difficulty": {
             "name": "dungeon",
@@ -467,7 +467,7 @@
         },
         {
           "zone_matches": {
-            "structure": "~^(mowziesmobs:(umvuthana_grove|frostmaw_spawn)|cataclysm:ancient_factory|block_factorys_bosses:(yeti_hideout|sandworm_nest)|irons_spellbooks:(catacombs|evoker_fort)|aquamirae:shipwreck|dungeons_arise:(coliseum|heavenly_challenger|heavenly_conqueror|keep_kayra|kisegi_sanctuary|mechanical_nest|monastery|shiraz_palace|typhon|foundry|plague_asylum|mining_complex)|minecraft:(monument|mansion))$"
+            "structure": "~^(mowziesmobs:(umvuthana_grove|frostmaw_spawn)|cataclysm:ancient_factory|block_factorys_bosses:(yeti_hideout|sandworm_nest)|irons_spellbooks:(catacombs|evoker_fort)|aquamirae:shipwreck|dungeons_arise:(coliseum|heavenly_challenger|heavenly_conqueror|keep_kayra|kisegi_sanctuary|mechanical_nest|monastery|shiraz_palace|typhon|foundry|plague_asylum|mining_complex)|minecraft:mansion|betteroceanmonuments:ocean_monument|betterdeserttemples:desert_temple|betterjungletemples:jungle_temple|toxony:large_silver_mine|epic:medium_.*|grim_kingdoms:(.*(_fort|hold|manor).*|eldermoor|zweiberg.*))$"
           },
           "difficulty": {
             "name": "dungeon",
@@ -476,7 +476,7 @@
         },
         {
           "zone_matches": {
-            "structure": "~^(mowziesmobs:wrought_chamber|mtr:(desert|jungle|badlands|ocean)_temple|irons_spellbooks:(mountain_tower|pyromancer_tower|impaled_icebreaker|ice_spider_den)|dungeons_arise:(bandit_towers|bandit_village|illager_fort|illager_windmill|illager_galley|illager_corsair|giant_mushroom|mushroom_village|mushroom_mines|mining_system|abandoned_temple|ceryneian_hind|thornborn_towers|heavenly_rider|undead_pirate_ship|infested_temple|scorched_mines)|terralith:mage_.*|born_in_chaos_v1:(dark_tower_.*|infernal_pumpkin)|cataclysm:(abandoned_village|abandoned_spire|abandoned_temple|desert_site|desert_occupied_village|desert_temple|amethyst_nest)|aquamirae:pirate_.*|netherman:monument|apotheosis:tower_.*|betterdungeons:(skeleton|spider|zombie)_dungeon|minecraft:(desert_pyramid|jungle_pyramid|trial_chambers))$"
+            "structure": "~^(mowziesmobs:wrought_chamber|irons_spellbooks:(mountain_tower|pyromancer_tower|impaled_icebreaker|ice_spider_den)|dungeons_arise:(bandit_towers|bandit_village|illager_fort|illager_windmill|illager_galley|illager_corsair|giant_mushroom|mushroom_village|mushroom_mines|mining_system|abandoned_temple|ceryneian_hind|thornborn_towers|heavenly_rider|undead_pirate_ship|infested_temple|scorched_mines)|terralith:(mage_.*|underground/frosted_dungeon)|born_in_chaos_v1:(dark_tower_.*|infernal_pumpkin)|cataclysm:(abandoned_village|abandoned_spire|abandoned_temple|desert_site|desert_occupied_village|desert_temple|amethyst_nest)|aquamirae:pirate_.*|netherman:monument|apotheosis:tower_.*|betterdungeons:(skeleton|spider|zombie|small)_dungeon|betterwitchhuts:witch_hut|minecraft:trial_chambers|toxony:(lost_silver_mine|old_experiment_house|hunter_watchtower|old_adventure_guild)|ancient_remnants:.*|epic:(small_.*|.*_obelisk)|grim_kingdoms:.*(outpost|tower|watch|camp).*|create_structures_arise:(create_dungeon_base|create_ruined_castle|createmonsterroom|towerofochrum|pillagersteampunkairship)|minecraft:pillager_outpost|epic:(large|small)_igloo)$"
           },
           "difficulty": {
             "name": "dungeon",
@@ -561,7 +561,7 @@
         },
         {
           "zone_matches": {
-            "structure": "~^(minecraft:(fortress|bastion_remnant)|incendium:(nether_reactor|abandoned_tower|infernal_altar)|hellish_trials:.*|irons_spellbooks:ancient_battleground|mtr:nether_temple|netherman:(eye_columns|gast_chamber|gehen_statue|trap)|betterdungeons:small_nether_dungeon|mns:(mega_fortress|dragon_arena|large_arena|small_arena|nether_tower|copper_tower|train|giant_skull))$"
+            "structure": "~^(minecraft:(fortress|bastion_remnant)|incendium:(nether_reactor|abandoned_tower|infernal_altar)|hellish_trials:.*|irons_spellbooks:ancient_battleground|netherman:(eye_columns|gast_chamber|gehen_statue|trap)|betterdungeons:small_nether_dungeon|mns:(mega_fortress|dragon_arena|large_arena|small_arena|nether_tower|copper_tower|train|giant_skull)|betterfortresses:fortress|create_structures_arise:(darkcastle|obsidiantemple|deadlordshouse|create_bastion)|incendium:(piglin_village|ruined_lab|quartz_kitchen)|firesenderexpansion:warped_treehouse)$"
           },
           "difficulty": {
             "name": "dungeon",
@@ -592,7 +592,7 @@
       "zones": [
         {
           "zone_matches": {
-            "structure": "~^(cataclysm:ruined_citadel)$"
+            "structure": "~^(cataclysm:ruined_citadel|fdbosses:geburah_arena)$"
           },
           "difficulty": {
             "name": "heroic",
@@ -601,7 +601,7 @@
         },
         {
           "zone_matches": {
-            "structure": "~^(minecraft:end_city|mes:(mega_ship.*|phantom_citadel|ender_spire|enderkeep_courtyard|starlight_voyager))$"
+            "structure": "~^(minecraft:end_city|firesenderexpansion:(end_library|endventurer_house)|dungeons_arise:aviary)$"
           },
           "difficulty": {
             "name": "dungeon",

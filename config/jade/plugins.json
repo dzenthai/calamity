@@ -65,6 +65,14 @@
   "ftbquests": {
     "barrier": true
   },
+  "valoria": {
+    "jewelry": true,
+    "manipulator": true,
+    "keg": true,
+    "key": true,
+    "crusher": true,
+    "entity_weakness": true
+  },
   "twilightforest": {
     "drying_rack": true,
     "chiseled_bookshelf_spawner": true,
@@ -89,9 +97,6 @@
   },
   "waystones": {
     "waystone": true
-  },
-  "corpse": {
-    "corpse": true
   },
   "balm": {
     "jade": true

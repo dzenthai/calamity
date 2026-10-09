@@ -1,0 +1,19 @@
+[General]
+	#If you want to modify stats relating to this mod's spells, check the ISS server config.
+	understand = true
+	#Should Gate of Ender have its sneak-cast variant? Default is false
+	allow_sword_hail = false
+	#Should Hollow Crystal break any projectiles it touches? Default is true
+	hollow_crystal_break_projectiles = true
+	#What is the internal cooldown (in ticks) for Aspect of the Shulker to trigger? Default is 20
+	shulker_aspect_internal_cooldown = 20
+	#Should Players killed in the Void Dimension have their items return to their respawn position? Default is false
+	infinite_void_item_return = false
+
+[Crafting]
+	#Should Infused Obsidian Fragments be obtainable through the in-world method? Default is true
+	fragments_obtainable = true
+	#Should the Ornate Empty Staff be able to be filled with a black hole? Default is true
+	tbate_black_hole_obtainable = true
+	#Should the Crystal heart be craftable with the in-world method? Default is true
+	crystal_heart_obtainable = true

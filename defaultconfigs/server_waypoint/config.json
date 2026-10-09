@@ -1,0 +1,14 @@
+{
+  "serverId": -708374417,
+  "CommandPermission": {
+    "add": 2,
+    "edit": 2,
+    "remove": 2,
+    "tp": 2,
+    "reload": 2
+  },
+  "Features": {
+    "addWaypointFromChatSharing": true,
+    "sendXaerosWorldId": true
+  }
+}

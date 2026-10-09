@@ -1,0 +1,5 @@
+#Make Epic Fight the player's combat system only.
+#Regular vanilla mobs lose their Epic Fight patches and fight as in vanilla; the Ender Dragon and the Wither keep theirs.
+#Epic Fight's globalStun gamerule is kept off, so modded mobs and bosses fight exactly as their authors made them.
+#Applied through the built-in data pack "player_only". Takes effect on the next world load.
+playerOnly = true

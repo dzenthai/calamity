@@ -10,6 +10,18 @@
       },
       "rarity": "EPIC",
       "repRequired": 30
+    },
+    "prismarine_crystals": {
+      "unitWorth": 300
+    },
+    "supp_safe": {
+      "unitWorth": 5000
+    },
+    "legend_key": {
+      "unitWorth": 5000
+    },
+    "minecart": {
+      "unitWorth": 2500
     }
   }
 }

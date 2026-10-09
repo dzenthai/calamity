@@ -1,0 +1,13 @@
+name = "Reliquified L_Ender 's Cataclysm new relics fix"
+filename = "reliquified-lenders-cataclysm-new-relics-fix-1.0.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "76ccc4c17c3649f3fa335e904b7496fc68a919ff"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8936348
+project-id = 1665965

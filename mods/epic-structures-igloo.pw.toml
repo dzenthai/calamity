@@ -1,0 +1,13 @@
+name = "Epic Structures: Igloo"
+filename = "epic-structures-igloo-1.0.5.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/r5cwIwhb/versions/nXW1eymX/epic-structures-igloo-1.0.5.jar"
+hash-format = "sha512"
+hash = "cc97d47b48917d36744ebd1b6e7fb9249eeb950780ed21c1b4580e0fbd954d9369fe2bd43ef57db1d0b3209ad8ebc28ee88f6c14bc19d0feb6b9af7b22b55575"
+
+[update]
+[update.modrinth]
+mod-id = "r5cwIwhb"
+version = "nXW1eymX"

@@ -1,0 +1,13 @@
+name = "Cult of Azazel"
+filename = "[Content]cultofazazelneoforge-1.1.4.12.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/tnd2BYam/versions/soOXKDV6/cultofazazelneoforge-1.1.4.12.jar"
+hash-format = "sha512"
+hash = "2aeb0897ee87d68a585203fc5ec0392279721e01dbaabb2a53c6eaf0aaa8934d4ef2cc869b72c1b24e3adc1617f189af121053c69ee801874f5d79251de31f58"
+
+[update]
+[update.modrinth]
+mod-id = "tnd2BYam"
+version = "soOXKDV6"

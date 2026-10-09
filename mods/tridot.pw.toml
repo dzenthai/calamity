@@ -1,0 +1,13 @@
+name = "Tridot"
+filename = "Tridot-1.21.1-1.0.171.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/dG9hR9Ly/versions/ZxHG60nl/Tridot-1.21.1-1.0.171.jar"
+hash-format = "sha512"
+hash = "978f5b58ebf06159131af1d0770c5a575127bbb604d78791a12737158b39f33050219ec83adc444ee1157f9d31590cdc5f19d45363609c6e88aa697bf6a618ba"
+
+[update]
+[update.modrinth]
+mod-id = "dG9hR9Ly"
+version = "ZxHG60nl"

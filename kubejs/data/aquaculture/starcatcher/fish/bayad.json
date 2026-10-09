@@ -1,0 +1,125 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "aquaculture"
+    }
+  ],
+  "skips_minigame": false,
+  "has_guide_entry": true,
+  "textures": {
+    "buttons": "starcatcher:textures/gui/minigame/buttons.png",
+    "treasure": "starcatcher:textures/gui/minigame/treasure.png",
+    "wheels": "starcatcher:textures/gui/minigame/wheels.png",
+    "tank": "starcatcher:textures/gui/minigame/tanks/surface.png",
+    "rod": "starcatcher:textures/gui/minigame/rod.png",
+    "handle": "starcatcher:textures/gui/minigame/handle.png"
+  },
+  "restrictions": [
+    {
+      "dimension_entry": "overworld",
+      "translation_override": "dimension.minecraft.overworld",
+      "type": "starcatcher:dimension"
+    },
+    {
+      "biomes": [
+        "#starcatcher:is_warm_lake"
+      ],
+      "blacklist": [],
+      "type": "starcatcher:biome"
+    },
+    {
+      "min_y": 50,
+      "max_y": 2147483647,
+      "translation_override": "gui.guide.elevation.surface",
+      "type": "starcatcher:elevation_restriction"
+    },
+    {
+      "ranges": [
+        {
+          "min": 12700,
+          "max": 24000
+        }
+      ],
+      "translation_override": "gui.guide.night",
+      "type": "starcatcher:daytime_restriction"
+    },
+    {
+      "fluids": [
+        "minecraft:water"
+      ],
+      "translation_override": "fluid.starcatcher.water",
+      "type": "starcatcher:fluid"
+    }
+  ],
+  "difficulty": {
+    "decay": 1.0,
+    "modifiers": [
+      {
+        "sweetspot": {
+          "moving_rate": 0.0,
+          "color_as_int": -15732736,
+          "is_flip": false,
+          "vanishing_rate": 0.0,
+          "sweetspot_type": "starcatcher:mirage",
+          "texture_path": "starcatcher:textures/gui/minigame/spots/normal.png",
+          "hitbox_size_in_pixels": 22,
+          "reward": 0
+        },
+        "sudoku_vanish": false,
+        "cooldown": 140,
+        "chance": 1.0,
+        "type": "starcatcher:spawn_sweetspots"
+      },
+      {
+        "sweetspot": {
+          "moving_rate": 0.0,
+          "color_as_int": -15732736,
+          "is_flip": false,
+          "vanishing_rate": 0.0,
+          "sweetspot_type": "starcatcher:mirage",
+          "texture_path": "starcatcher:textures/gui/minigame/spots/normal.png",
+          "hitbox_size_in_pixels": 22,
+          "reward": 0
+        },
+        "sudoku_vanish": false,
+        "cooldown": 100,
+        "chance": 0.3,
+        "type": "starcatcher:spawn_sweetspots"
+      }
+    ],
+    "sweetspots": [
+      {
+        "moving_rate": 0.0,
+        "color_as_int": -15732736,
+        "is_flip": false,
+        "vanishing_rate": 0.0,
+        "sweetspot_type": "starcatcher:normal",
+        "texture_path": "starcatcher:textures/gui/minigame/spots/normal.png",
+        "hitbox_size_in_pixels": 22,
+        "reward": 15
+      }
+    ],
+    "hp": 100,
+    "speed": 10,
+    "missPenalty": 20
+  },
+  "catch_info": {
+    "item": {
+      "identifier": "aquaculture:bayad"
+    },
+    "fish_bucket": {
+      "identifier": "aquaculture:bayad_bucket"
+    },
+    "entity": "aquaculture:bayad"
+  },
+  "base_chance": 10,
+  "size_and_weight": {
+    "average_weight_grams": 150000.0,
+    "deviation_weight_grams": 20000.0,
+    "golden_chance": 0.02,
+    "average_size_cm": 170.0,
+    "deviation_size_cm": 30.0
+  },
+  "rarity": "uncommon"
+}

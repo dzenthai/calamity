@@ -1,0 +1,13 @@
+name = "Yet Another Gravestone Mod [YAGM]"
+filename = "yagm-1.21.1-0.1.4-NEOFORGE.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/lkwjObIy/versions/CDxuAuks/yagm-1.21.1-0.1.4-NEOFORGE.jar"
+hash-format = "sha512"
+hash = "1bbb8ca5af53cc13cbb0b28d41e4854d5eab2f1c48d0348635d8dec347a11dc5e6344b49e87162997f5022bd6b45ed7aa05e7df3881546f8e4396685dbeff837"
+
+[update]
+[update.modrinth]
+mod-id = "lkwjObIy"
+version = "CDxuAuks"
